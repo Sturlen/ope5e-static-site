@@ -4,11 +4,12 @@ import Card from "../components/Card.astro"
 import Monsters from "../api/monsters.json"
 ---
 
-<Layout title="Welcome to Astro.">
+<Layout title="Open5e Static Site Test">
   <main>
-    <h1>Welcome to <span class="text-gradient">Astro</span></h1>
+    <h1><span class="text-gradient">Open5e Test</span></h1>
     <p class="instructions">
-      Pick a devious monster for your players to fight
+      This test current only has monsters (a whoppping 2461 at that), so have a
+      look and pick a devious monster for your players to fight
     </p>
     <ul role="list" class="link-card-grid">
       {
@@ -16,7 +17,14 @@ import Monsters from "../api/monsters.json"
           <Card
             href={`/monsters/${monster.slug}`}
             title={monster.name}
-            body=""
+            body={
+              "CR " +
+              monster.challenge_rating +
+              " " +
+              monster.size +
+              " " +
+              monster.type
+            }
           />
         ))
       }
@@ -62,8 +70,8 @@ import Monsters from "../api/monsters.json"
     color: rgb(var(--accent));
   }
   .link-card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
     padding: 0;
   }
