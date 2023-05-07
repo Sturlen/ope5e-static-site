@@ -15,11 +15,16 @@ const { title, description = "5e content available under the OGL" } =
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <meta property="description" content={description} />
-    <meta property="twitter:title" content={title} />
-    <meta property="twitter:description" content={description} />
-    <meta property="og:title" content={title} />
+
     <title>{title}</title>
+    <meta property="twitter:title" content={title} />
+    <meta property="og:title" content={title} />
+
+    <meta property="twitter:description" content={description} />
+    <meta name="description" content={description} />
+    <meta property="description" content={description} />
+
+    <meta name="twitter:card" content="summary" />
   </head>
   <body>
     <header><nav><a href="/">Open 5e Static Test - Home</a></nav></header>
