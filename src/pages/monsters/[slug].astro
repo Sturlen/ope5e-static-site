@@ -16,7 +16,7 @@ if (!monster) {
   throw `Monster '${slug}' not found`
 }
 
-const { challenge_rating, actions = [] } = monster
+const { challenge_rating, actions } = monster
 
 const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
   monster.alignment ?? ""
@@ -36,12 +36,12 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
     </p>
     <p>
       <strong>Challenge</strong>
-      <span data-ac>{challenge_rating}</span>
+      <span data-challenge>{challenge_rating}</span>
     </p>
 
     <ul role="list" class="link-card-grid">
       {
-        actions.map((action: any) => (
+        actions?.map((action: any) => (
           <Card title={action.name} body={action.desc} />
         ))
       }
