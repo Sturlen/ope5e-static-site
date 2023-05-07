@@ -41,7 +41,7 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
 
     <ul role="list" class="link-card-grid">
       {
-        actions?.map((action: any) => (
+        actions && actions.length && actions.map((action: any) => (
           <Card title={action.name} body={action.desc} />
         ))
       }
