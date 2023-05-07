@@ -18,9 +18,13 @@ const { title, description } = Astro.props
       property="description"
       content={description ?? "5e content available under the OGL"}
     />
+    <meta property="twitter:card" content="summary" />
+    <meta property="twitter:title" content={title} />
+    <meta property="og:title" content={title} />
     <title>{title}</title>
   </head>
   <body>
+    <header><nav><a href="/">Open 5e Static Test - Home</a></nav></header>
     <slot />
   </body>
 </html>
@@ -35,6 +39,17 @@ const { title, description } = Astro.props
     );
   }
 
+  body {
+    margin: 0;
+    padding: 0;
+  }
+
+  h2 {
+    border-bottom: 3px solid rgb(218, 98, 98);
+    margin-top: 2rem;
+    padding-bottom: 0.25rem;
+  }
+
   hr {
     border-color: rgb(var(--accent));
   }
@@ -45,5 +60,17 @@ const { title, description } = Astro.props
   code {
     font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
       DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+  }
+  header {
+    background-color: rgb(var(--accent));
+    padding-top: 0.5rem;
+    padding-left: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  header a {
+    color: white;
+    font-size: 1.5rem;
+    text-decoration: none;
+    background-color: rgb(var(--accent));
   }
 </style>
