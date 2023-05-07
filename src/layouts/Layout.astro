@@ -4,7 +4,8 @@ export interface Props {
   description?: string
 }
 
-const { title, description } = Astro.props
+const { title, description = "5e content available under the OGL" } =
+  Astro.props
 ---
 
 <!DOCTYPE html>
@@ -14,12 +15,9 @@ const { title, description } = Astro.props
     <meta name="viewport" content="width=device-width" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <meta name="generator" content={Astro.generator} />
-    <meta
-      property="description"
-      content={description ?? "5e content available under the OGL"}
-    />
-    <meta property="twitter:card" content="summary" />
+    <meta property="description" content={description} />
     <meta property="twitter:title" content={title} />
+    <meta property="twitter:description" content={description} />
     <meta property="og:title" content={title} />
     <title>{title}</title>
   </head>
