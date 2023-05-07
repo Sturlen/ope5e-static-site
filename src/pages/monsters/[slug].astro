@@ -15,37 +15,36 @@ const monster = Monsters.find((monster) => monster.slug === slug)
 if (!monster) {
   throw `Monster '${slug}' not found`
 }
+
+const { challenge_rating } = monster
+
+const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
+  monster.alignment ?? ""
+} (CR ${challenge_rating})`
 ---
 
-<Layout title={monster.name}>
+<Layout title={monster.name} description={desc}>
   <main>
-    <h1>Welcome to <span class="text-gradient">{slug}</span></h1>
-    <p class="instructions">
-      To get started, open the directory <code>src/pages</code> in your project.<br
-      />
-      <strong>{monster.name}</strong> Tweak the "Welcome to Astro" message above.
+    <h1 class="text-gradient">
+      {monster.name}
+    </h1>
+    <em>{desc}</em>
+    <hr />
+    <p>
+      <strong>Armor Class</strong>
+      <span data-ac>{monster.armor_class}</span>
     </p>
+    <p>
+      <strong>Challenge</strong>
+      <span data-ac>{challenge_rating}</span>
+    </p>
+
     <ul role="list" class="link-card-grid">
-      <Card
-        href="https://docs.astro.build/"
-        title="Documentation"
-        body="Learn how Astro works and explore the official API docs."
-      />
-      <Card
-        href="https://astro.build/integrations/"
-        title="Integrations"
-        body="Supercharge your project with new frameworks and libraries."
-      />
-      <Card
-        href="https://astro.build/themes/"
-        title="Themes"
-        body="Explore a galaxy of community-built starter themes."
-      />
-      <Card
-        href="https://astro.build/chat/"
-        title="Community"
-        body="Come say hi to our amazing Discord community. ❤️"
-      />
+      {
+        monster.actions?.map((action: any) => (
+          <Card title={action.name} body={action.desc} />
+        ))
+      }
     </ul>
     <a href={monster.document__license_url}>{monster.document__title}</a>
   </main>
@@ -55,7 +54,7 @@ if (!monster) {
   main {
     margin: auto;
     padding: 1.5rem;
-    max-width: 60ch;
+    max-width: 80ch;
   }
   h1 {
     font-size: 3rem;
@@ -89,8 +88,8 @@ if (!monster) {
     color: rgb(var(--accent));
   }
   .link-card-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(24ch, 1fr));
+    display: flex;
+    flex-direction: column;
     gap: 1rem;
     padding: 0;
   }
