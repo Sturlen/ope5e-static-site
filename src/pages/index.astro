@@ -1,11 +1,14 @@
 ---
 import Layout from "../layouts/Layout.astro"
 import Card from "../components/Card.astro"
+import { MonsterSchema } from "../api/monster"
 const modules = [...(await Astro.glob("/src/api/monsters/*.json"))] as [
   { default: any }
 ]
 
-const Monsters = modules.map((m) => m.default)
+const Monsters = modules
+  .map((m) => m.default)
+  .map((raw) => MonsterSchema.parse(raw))
 ---
 
 <Layout title="Open5e Static Site Test">
