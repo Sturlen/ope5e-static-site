@@ -1,18 +1,18 @@
 ---
 import Layout from "../../layouts/Layout.astro"
-import Monsters from "../../api/monsters.json"
 
-export function getStaticPaths() {
-  return Monsters.map((monster) => ({ params: { slug: monster.slug } }))
+export async function getStaticPaths() {
+  const module = [...(await Astro.glob("/src/api/monsters.json"))][0] as {
+    default: any[]
+  }
+  const Monsters = module.default
+  return Monsters.map((monster) => ({
+    params: { slug: monster.slug },
+    props: { monster },
+  }))
 }
 
-const { slug } = Astro.params
-
-const monster = Monsters.find((monster) => monster.slug === slug)
-
-if (!monster) {
-  throw `Monster '${slug}' not found`
-}
+const { monster } = Astro.props
 
 const { challenge_rating, actions } = monster
 
