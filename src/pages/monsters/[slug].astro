@@ -2,14 +2,16 @@
 import Layout from "../../layouts/Layout.astro"
 
 export async function getStaticPaths() {
-  const module = [...(await Astro.glob("/src/api/monsters.json"))][0] as {
-    default: any[]
-  }
-  const Monsters = module.default
-  return Monsters.map((monster) => ({
-    params: { slug: monster.slug },
-    props: { monster },
-  }))
+  const modules = [...(await Astro.glob("/src/api/monsters/*.json"))] as [
+    { default: any }
+  ]
+
+  return modules
+    .map((m) => m.default)
+    .map((monster) => ({
+      params: { slug: monster.slug },
+      props: { monster },
+    }))
 }
 
 const { monster } = Astro.props
