@@ -13,6 +13,7 @@ export const MonsterSchema = z
             .string()
             .or(z.array(z.object({ name: z.string(), desc: z.string() }))),
         document__license_url: z.string(),
+        document__slug: z.string(),
         document__title: z.string(),
         strength: z.number(),
         dexterity: z.number(),

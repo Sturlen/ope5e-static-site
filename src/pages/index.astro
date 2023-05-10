@@ -1,6 +1,5 @@
 ---
 import Layout from "../layouts/Layout.astro"
-import Card from "../components/Card.astro"
 import { MonsterSchema } from "../api/monster"
 const modules = [...(await Astro.glob("/src/api/monsters/*.json"))] as [
     { default: any }
@@ -23,20 +22,25 @@ const Monsters = modules
         <ul role="list" class="link-card-grid">
             {
                 Monsters.map((monster) => (
-                    <Card
-                        href={`/monsters/${monster.slug}`}
-                        title={monster.name}
-                        body={
-                            "CR " +
-                            monster.challenge_rating +
-                            " " +
-                            monster.size +
-                            " " +
-                            monster.type +
-                            " " +
-                            imgTag(!!monster.img)
-                        }
-                    />
+                    <div class="card">
+                        <span class="title">
+                            <a href={`/monsters/${monster.slug}`}>
+                                <strong>{monster.name}</strong>
+                            </a>
+
+                            <span class="source">{monster.document__slug}</span>
+                        </span>
+                        <p>
+                            {"CR " +
+                                monster.challenge_rating +
+                                " " +
+                                monster.size +
+                                " " +
+                                monster.type +
+                                " " +
+                                imgTag(!!monster.img)}
+                        </p>
+                    </div>
                 ))
             }
         </ul>
@@ -83,7 +87,31 @@ const Monsters = modules
     .link-card-grid {
         display: flex;
         flex-direction: column;
-        gap: 1rem;
         padding: 0;
+    }
+    .card {
+        margin: 0.1rem 0;
+        border: 1px solid rgba(var(--accent), 25%);
+        background-color: white;
+        padding: 1rem;
+        border-radius: 0.4rem;
+    }
+
+    .card .title {
+        display: flex;
+    }
+
+    .card .source {
+        display: inline-block;
+        margin-left: auto;
+        line-height: 20px;
+        height: 20px;
+        border-radius: 20px;
+        padding: 1px 10px;
+        padding-bottom: 3px;
+        background-color: rgb(var(--accent));
+        color: white;
+        text-transform: uppercase;
+        text-align: center;
     }
 </style>
