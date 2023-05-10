@@ -22,16 +22,14 @@ export async function getStaticPaths() {
 
 const { monster } = Astro.props
 
-const { challenge_rating, actions, stats, name, slug } = monster
-
-const image = `https://github.com/Sturlen/open5e-api/blob/monster-images/static/img/monsters/${slug}.png?raw=true`
+const { challenge_rating, actions, stats, name, img } = monster
 
 const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
     monster.alignment ?? ""
 } (CR ${challenge_rating})`
 ---
 
-<Layout title={monster.name} description={desc} image={image}>
+<Layout title={monster.name} description={desc} image={img}>
     <main>
         <h1 class="text-gradient">
             {name}
@@ -39,17 +37,24 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
         <em>{desc}</em>
 
         <hr />
-        <div class="img-box">
-            <a href={image} target="_blank"
-                ><img
-                    src={image}
-                    alt={`Illustration of ${name}`}
-                    width="100%"
-                />
-            </a>
-            <caption>Captivating Caption</caption>
-        </div>
-        <hr />
+        {
+            img && (
+                <>
+                    <div class="img-box">
+                        <a href={img} target="_blank">
+                            <img
+                                src={img}
+                                alt={`Illustration of ${name}`}
+                                width="100%"
+                            />
+                        </a>
+                        <caption>Captivating Caption</caption>
+                    </div>
+                    <hr />
+                </>
+            )
+        }
+
         <div class="stats">
             {
                 Object.keys(stats).map((key) => (

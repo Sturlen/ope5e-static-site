@@ -3,83 +3,87 @@ import Layout from "../layouts/Layout.astro"
 import Card from "../components/Card.astro"
 import { MonsterSchema } from "../api/monster"
 const modules = [...(await Astro.glob("/src/api/monsters/*.json"))] as [
-  { default: any }
+    { default: any }
 ]
 
+const imgTag = (img: boolean) => (img ? "🖼️" : "")
+
 const Monsters = modules
-  .map((m) => m.default)
-  .map((raw) => MonsterSchema.parse(raw))
+    .map((m) => m.default)
+    .map((raw) => MonsterSchema.parse(raw))
 ---
 
 <Layout title="Open5e Static Site Test">
-  <main>
-    <h1><span class="text-gradient">Open5e Test</span></h1>
-    <p class="instructions">
-      This test current only has monsters (a whoppping 2461 at that), so have a
-      look and pick a devious monster for your players to fight
-    </p>
-    <ul role="list" class="link-card-grid">
-      {
-        Monsters.map((monster) => (
-          <Card
-            href={`/monsters/${monster.slug}`}
-            title={monster.name}
-            body={
-              "CR " +
-              monster.challenge_rating +
-              " " +
-              monster.size +
-              " " +
-              monster.type
+    <main>
+        <h1><span class="text-gradient">Open5e Test</span></h1>
+        <p class="instructions">
+            This test current only has monsters (a whoppping 2461 at that), so
+            have a look and pick a devious monster for your players to fight
+        </p>
+        <ul role="list" class="link-card-grid">
+            {
+                Monsters.map((monster) => (
+                    <Card
+                        href={`/monsters/${monster.slug}`}
+                        title={monster.name}
+                        body={
+                            "CR " +
+                            monster.challenge_rating +
+                            " " +
+                            monster.size +
+                            " " +
+                            monster.type +
+                            " " +
+                            imgTag(!!monster.img)
+                        }
+                    />
+                ))
             }
-          />
-        ))
-      }
-    </ul>
-  </main>
+        </ul>
+    </main>
 </Layout>
 
 <style>
-  main {
-    margin: auto;
-    padding: 1.5rem;
-    max-width: 80ch;
-  }
-  h1 {
-    font-size: 3rem;
-    font-weight: 800;
-    margin: 0;
-  }
-  .text-gradient {
-    background-image: var(--accent-gradient);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-size: 400%;
-    background-position: 0%;
-  }
-  .instructions {
-    line-height: 1.6;
-    margin: 1rem 0;
-    border: 1px solid rgba(var(--accent), 25%);
-    background-color: white;
-    padding: 1rem;
-    border-radius: 0.4rem;
-  }
-  .instructions code {
-    font-size: 0.875em;
-    font-weight: bold;
-    background: rgba(var(--accent), 12%);
-    color: rgb(var(--accent));
-    border-radius: 4px;
-    padding: 0.3em 0.45em;
-  }
-  .instructions strong {
-    color: rgb(var(--accent));
-  }
-  .link-card-grid {
-    display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    padding: 0;
-  }
+    main {
+        margin: auto;
+        padding: 1.5rem;
+        max-width: 80ch;
+    }
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin: 0;
+    }
+    .text-gradient {
+        background-image: var(--accent-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 400%;
+        background-position: 0%;
+    }
+    .instructions {
+        line-height: 1.6;
+        margin: 1rem 0;
+        border: 1px solid rgba(var(--accent), 25%);
+        background-color: white;
+        padding: 1rem;
+        border-radius: 0.4rem;
+    }
+    .instructions code {
+        font-size: 0.875em;
+        font-weight: bold;
+        background: rgba(var(--accent), 12%);
+        color: rgb(var(--accent));
+        border-radius: 4px;
+        padding: 0.3em 0.45em;
+    }
+    .instructions strong {
+        color: rgb(var(--accent));
+    }
+    .link-card-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0;
+    }
 </style>

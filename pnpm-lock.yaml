@@ -3,11 +3,13 @@ lockfileVersion: 5.4
 specifiers:
   '@astrojs/vercel': ^3.3.0
   astro: ^2.3.4
+  slugify: ^1.6.6
   zod: ^3.21.4
 
 dependencies:
   '@astrojs/vercel': 3.3.0_astro@2.4.2
   astro: 2.4.2
+  slugify: 1.6.6
   zod: 3.21.4
 
 packages:
@@ -2926,6 +2928,11 @@ packages:
   /slash/4.0.0:
     resolution: {integrity: sha512-3dOsAHXXUkQTpOYcoAxLIorMTp4gIQr5IW3iVb7A7lFIp0VHhnynm9izx6TssdrIcVIESAlVjtnO2K8bg+Coew==}
     engines: {node: '>=12'}
+    dev: false
+
+  /slugify/1.6.6:
+    resolution: {integrity: sha512-h+z7HKHYXj6wJU+AnS/+IH8Uh9fdcX1Lrhg1/VMdf9PwoBQXFcXiAdsy2tSK0P6gKwJLXp02r90ahUCqHk9rrw==}
+    engines: {node: '>=8.0.0'}
     dev: false
 
   /source-map-js/1.0.2:

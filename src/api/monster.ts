@@ -20,6 +20,7 @@ export const MonsterSchema = z
         intelligence: z.number(),
         wisdom: z.number(),
         charisma: z.number(),
+        img: z.string().optional(),
     })
     .transform((m) => ({
         ...m,
