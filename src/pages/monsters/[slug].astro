@@ -22,14 +22,18 @@ export async function getStaticPaths() {
 
 const { monster } = Astro.props
 
-const { challenge_rating, actions, stats, name } = monster
+const { challenge_rating, actions, stats, name, slug } = monster
 
 const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
     monster.alignment ?? ""
 } (CR ${challenge_rating})`
 ---
 
-<Layout title={monster.name} description={desc}>
+<Layout
+    title={monster.name}
+    description={desc}
+    image={`https://github.com/open5e/open5e-api/blob/monster-images/static/img/monsters/${slug}.png?raw=true`}
+>
     <main>
         <h1 class="text-gradient">
             {name}
@@ -46,6 +50,10 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
                 ))
             }
         </div>
+        <img
+            src={`https://github.com/open5e/open5e-api/blob/monster-images/static/img/monsters/aarakocra.png?raw=true`}
+            alt={`Illustration of ${name}`}
+        />
         <hr />
         <p>
             <strong>Armor Class</strong>
