@@ -39,6 +39,7 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
             {name}
         </h1>
         <em>{desc}</em>
+
         <hr />
         <div class="stats">
             {
@@ -51,8 +52,9 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
             }
         </div>
         <img
-            src={`https://github.com/open5e/open5e-api/blob/monster-images/static/img/monsters/aarakocra.png?raw=true`}
+            src={`https://github.com/open5e/open5e-api/blob/monster-images/static/img/monsters/${slug}.png?raw=true`}
             alt={`Illustration of ${name}`}
+            width="60ch"
         />
         <hr />
         <p>
