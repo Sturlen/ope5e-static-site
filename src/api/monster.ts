@@ -8,6 +8,7 @@ export const MonsterSchema = z
         name: z.string(),
         size: z.string(),
         type: z.string(),
+        subtype: z.string().nullish(),
         armor_class: z.number(),
         speed: SpeedSchema,
         alignment: z.string(),

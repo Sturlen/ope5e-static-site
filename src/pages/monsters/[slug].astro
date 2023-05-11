@@ -23,11 +23,12 @@ export async function getStaticPaths() {
 
 const { monster } = Astro.props
 
-const { challenge_rating, actions, stats, name, img, slug, speed } = monster
+const { challenge_rating, actions, stats, name, img, slug, speed, subtype } =
+    monster
 
-const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
-    monster.alignment ?? ""
-} (CR ${challenge_rating})`
+const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
+    subtype ? " (" + subtype + ")" : ""
+}, ${monster.alignment ?? ""} (CR ${challenge_rating})`
 ---
 
 <Layout title={monster.name} description={desc} image={img}>
