@@ -1,5 +1,7 @@
 import { z } from "zod"
 
+const SpeedSchema = z.record(z.union([z.number(), z.boolean(), z.string()]))
+
 export const MonsterSchema = z
     .object({
         slug: z.string(),
@@ -7,6 +9,7 @@ export const MonsterSchema = z
         size: z.string(),
         type: z.string(),
         armor_class: z.number(),
+        speed: SpeedSchema,
         alignment: z.string(),
         challenge_rating: z.string(),
         actions: z

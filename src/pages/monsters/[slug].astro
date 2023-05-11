@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 
 const { monster } = Astro.props
 
-const { challenge_rating, actions, stats, name, img, slug } = monster
+const { challenge_rating, actions, stats, name, img, slug, speed } = monster
 
 const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
     monster.alignment ?? ""
@@ -32,7 +32,7 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
 
 <Layout title={monster.name} description={desc} image={img}>
     <main>
-        <h1 class="text-gradient">
+        <h1>
             {name}
         </h1>
         <em>{desc}</em>
@@ -56,6 +56,28 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
             )
         }
 
+        <p>
+            <strong>Armor Class</strong>
+            <span data-ac>{monster.armor_class}</span>
+        </p>
+        <p>
+            <strong>Hit Points</strong>
+            <span>{0}</span>
+        </p>
+        <p>
+            <strong>Speed</strong>
+            <span
+                >{
+                    Object.keys(speed)
+                        .map(
+                            (key) =>
+                                `${key === "walk" ? "" : key} ${speed[key]} ft.`
+                        )
+                        .join(", ")
+                }</span
+            >
+        </p>
+        <hr />
         <div class="stats">
             {
                 Object.keys(stats).map((key) => (
@@ -68,13 +90,22 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
         </div>
 
         <hr />
+
         <p>
-            <strong>Armor Class</strong>
-            <span data-ac>{monster.armor_class}</span>
+            <strong>Skills</strong>
+            <span>{0}</span>
+        </p>
+        <p>
+            <strong>Senses</strong>
+            <span>{0}</span>
+        </p>
+        <p>
+            <strong>Languages</strong>
+            <span>{0}</span>
         </p>
         <p>
             <strong>Challenge</strong>
-            <span data-challenge>{challenge_rating}</span>
+            <span>{challenge_rating}</span>
         </p>
 
         <h2>Actions</h2>
@@ -82,8 +113,8 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
         {
             typeof actions !== "string" &&
                 actions.map((action) => (
-                    <p>
-                        <strong>{action.name}</strong>
+                    <div>
+                        <h3>{action.name}.</h3>
                         <span
                             set:html={marked.parse(
                                 action.desc.replaceAll("\n", "\n\n"), // markdown require two newlines to split blocks.
@@ -93,7 +124,7 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
                                 }
                             )}
                         />
-                    </p>
+                    </div>
                 ))
             // should markdown viewer these
         }
@@ -120,6 +151,7 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
         font-size: 3rem;
         font-weight: 800;
         margin: 0;
+        color: rgb(var(--accent));
     }
 
     h2 {
@@ -127,6 +159,13 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
         margin-top: 2rem;
         padding-bottom: 0.25rem;
     }
+
+    h3 {
+        border-bottom: 1px solid black;
+        margin-top: 1rem;
+        padding-bottom: 0.1rem;
+    }
+
     .text-gradient {
         background-image: var(--accent-gradient);
         -webkit-background-clip: text;
@@ -145,6 +184,8 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
 
     p {
         text-align: justify;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
     }
 
     .link-card-grid {
