@@ -15,6 +15,7 @@ export const MonsterSchema = z
         document__license_url: z.string(),
         document__slug: z.string(),
         document__title: z.string(),
+        page_no: z.number().nullish(),
         strength: z.number(),
         dexterity: z.number(),
         constitution: z.number(),

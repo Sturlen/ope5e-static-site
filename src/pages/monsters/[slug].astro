@@ -23,7 +23,7 @@ export async function getStaticPaths() {
 
 const { monster } = Astro.props
 
-const { challenge_rating, actions, stats, name, img } = monster
+const { challenge_rating, actions, stats, name, img, slug } = monster
 
 const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
     monster.alignment ?? ""
@@ -99,9 +99,14 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
         }
         <hr />
         <p>
-            Find the complete stats on: <a href="https://open5e.com">Open5e</a>
+            Find the complete stats on: <a
+                href={`https://open5e.com/monsters/${slug}`}
+                target="_blank">Open5e</a
+            >
         </p>
-        <a href={monster.document__license_url}>{monster.document__title}</a>
+        <a href={monster.document__license_url} target="_blank"
+            >{monster.document__title}</a
+        >{monster.page_no && <span>, page no. {monster.page_no}</span>}
     </main>
 </Layout>
 
