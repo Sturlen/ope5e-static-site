@@ -1,4 +1,5 @@
 ---
+import { marked } from "marked"
 import { type Monster, MonsterSchema, Stat } from "../../api/monster"
 import Layout from "../../layouts/Layout.astro"
 
@@ -83,7 +84,15 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}, ${
                 actions.map((action) => (
                     <p>
                         <strong>{action.name}</strong>
-                        <span>{action.desc}</span>
+                        <span
+                            set:html={marked.parse(
+                                action.desc.replaceAll("\n", "\n\n"), // markdown require two newlines to split blocks.
+                                {
+                                    headerIds: false,
+                                    mangle: false,
+                                }
+                            )}
+                        />
                     </p>
                 ))
             // should markdown viewer these
