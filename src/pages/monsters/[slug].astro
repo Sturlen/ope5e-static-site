@@ -23,8 +23,18 @@ export async function getStaticPaths() {
 
 const { monster } = Astro.props
 
-const { challenge_rating, actions, stats, name, img, slug, speed, subtype } =
-    monster
+const {
+    challenge_rating,
+    actions,
+    stats,
+    name,
+    img,
+    slug,
+    speed,
+    subtype,
+    armor_class,
+    armor_desc,
+} = monster
 
 const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
     subtype ? " (" + subtype + ")" : ""
@@ -59,7 +69,7 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
 
         <p>
             <strong>Armor Class</strong>
-            <span data-ac>{monster.armor_class}</span>
+            <span data-ac>{armor_class} <i>{armor_desc}</i></span>
         </p>
         <p>
             <strong>Hit Points</strong>
