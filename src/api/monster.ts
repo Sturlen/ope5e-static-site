@@ -11,6 +11,8 @@ export const MonsterSchema = z
         subtype: z.string().nullish(),
         armor_class: z.number(),
         armor_desc: z.string().nullish(),
+        hit_points: z.number(),
+        hit_dice: z.string(),
         speed: SpeedSchema,
         alignment: z.string(),
         challenge_rating: z.string(),

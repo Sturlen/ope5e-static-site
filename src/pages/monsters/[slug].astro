@@ -34,6 +34,8 @@ const {
     subtype,
     armor_class,
     armor_desc,
+    hit_dice,
+    hit_points,
 } = monster
 
 const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
@@ -73,7 +75,7 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
         </p>
         <p>
             <strong>Hit Points</strong>
-            <span>{0}</span>
+            <span>{hit_points} ({hit_dice})</span>
         </p>
         <p>
             <strong>Speed</strong>
