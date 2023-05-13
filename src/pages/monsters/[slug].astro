@@ -2,6 +2,7 @@
 import { marked } from "marked"
 import { type Monster, MonsterSchema, Stat } from "../../api/monster"
 import Layout from "../../layouts/Layout.astro"
+import Stats from "../../components/Stats.astro"
 
 interface Props {
     monster: Monster
@@ -35,6 +36,7 @@ const {
     armor_desc,
     hit_dice,
     hit_points,
+    ...data
 } = monster
 
 const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
@@ -141,6 +143,7 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
             // should markdown viewer these
         }
         <hr />
+        <Stats data={data} />
         <p>
             Find the complete stats on: <a
                 href={`https://open5e.com/monsters/${slug}`}
@@ -193,13 +196,6 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
         padding: 1rem;
         border-radius: 0.4rem;
     }
-
-    p {
-        text-align: justify;
-        margin-top: 0.1rem;
-        margin-bottom: 0.1rem;
-    }
-
     .link-card-grid {
         display: flex;
         flex-direction: column;

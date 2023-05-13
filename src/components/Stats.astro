@@ -1,0 +1,16 @@
+---
+export interface Props {
+    data: Record<string, any>
+}
+
+const { data } = Astro.props
+---
+
+{
+    Object.keys(data).map((key) => (
+        <p>
+            <strong>{key}</strong>
+            <span>{data[key]}</span>
+        </p>
+    ))
+}
