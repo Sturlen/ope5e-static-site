@@ -2,7 +2,7 @@ import { readFileSync, writeFileSync } from "fs"
 import { z } from "zod"
 import slugify from "slugify"
 const monsters = JSON.parse(
-    readFileSync("./src/api/monsters.json", { encoding: "utf-8" })
+    readFileSync("./cache/monsters.json", { encoding: "utf-8" })
 )
 const images_data = JSON.parse(
     readFileSync("./src/api/monster_images.json", { encoding: "utf-8" })
@@ -15,14 +15,13 @@ const paths = images_data.tree.map(({ path }) => [
     }.png?raw=true`,
 ])
 
-export const SpeedSchema = z.record(
-    z.union([z.number(), z.boolean(), z.string()])
-)
-
 const image_map = new Map(paths)
-console.log(image_map)
 
-monsters.map((mon) => {
-    console.log(mon.name)
-    SpeedSchema.parse(mon.speed)
+const monsters_w_images = monsters.map((mon) => {
+    const slug = slugify(mon.name, { lower: true, strict: true, trim: true })
+    mon.img = image_map.get(slug)
+    return mon
+})
+writeFileSync(`./src/api/monsters.json`, JSON.stringify(monsters_w_images), {
+    encoding: "utf-8",
 })
