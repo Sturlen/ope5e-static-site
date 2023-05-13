@@ -2,6 +2,7 @@
 import { type Spell, SpellSchema } from "../../api/spell"
 import Stats from "../../components/Stats.astro"
 import Layout from "../../layouts/Layout.astro"
+import spellbook from "./spell-book.svg"
 
 interface Props {
     spell: Spell
@@ -27,7 +28,7 @@ const { name, desc, ...other } = spell
 const data: Record<string, any> = other
 ---
 
-<Layout title={name} description={desc} image={"img"}>
+<Layout title={name} description={desc} image={spellbook}>
     <main>
         <h1>
             {name}
