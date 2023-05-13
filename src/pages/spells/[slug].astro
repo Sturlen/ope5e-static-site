@@ -1,0 +1,122 @@
+---
+import { marked } from "marked"
+import { type Spell, SpellSchema } from "../../api/spell"
+import Layout from "../../layouts/Layout.astro"
+
+interface Props {
+    spell: Spell
+}
+
+export async function getStaticPaths() {
+    const modules = [...(await Astro.glob("/src/api/spells.json"))] as [
+        { default: any[] }
+    ]
+
+    return modules[0].default
+        .map((raw) => SpellSchema.parse(raw))
+        .map((spell) => ({
+            params: { slug: spell.slug },
+            props: { spell },
+        }))
+}
+
+const { spell } = Astro.props
+
+const { name, desc } = spell
+
+const data: Record<string, any> = spell
+---
+
+<Layout title={name} description={desc} image={"img"}>
+    <main>
+        <h1>
+            {name}
+        </h1>
+        {
+            Object.keys(data).map((key) => (
+                <p>
+                    <strong>{key}</strong>
+                    <span>{data[key]}</span>
+                </p>
+            ))
+        }
+    </main>
+</Layout>
+
+<style>
+    main {
+        margin: auto;
+        padding: 1.5rem;
+        max-width: 80ch;
+    }
+    h1 {
+        font-size: 3rem;
+        font-weight: 800;
+        margin: 0;
+        color: rgb(var(--accent));
+    }
+
+    h2 {
+        border-bottom: 3px solid rgb(218, 98, 98);
+        margin-top: 2rem;
+        padding-bottom: 0.25rem;
+    }
+
+    h3 {
+        border-bottom: 1px solid black;
+        margin-top: 1rem;
+        padding-bottom: 0.1rem;
+    }
+
+    .text-gradient {
+        background-image: var(--accent-gradient);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-size: 400%;
+        background-position: 0%;
+    }
+    .instructions {
+        line-height: 1.6;
+        margin: 1rem 0;
+        border: 1px solid rgba(var(--accent), 25%);
+        background-color: white;
+        padding: 1rem;
+        border-radius: 0.4rem;
+    }
+
+    p {
+        text-align: justify;
+        margin-top: 0.1rem;
+        margin-bottom: 0.1rem;
+    }
+
+    .link-card-grid {
+        display: flex;
+        flex-direction: column;
+        gap: 1rem;
+        padding: 0;
+    }
+
+    .stats {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-around;
+        gap: 1rem;
+    }
+    .stat {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-box {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img-box a {
+        width: 60%;
+    }
+</style>
