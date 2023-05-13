@@ -3,6 +3,7 @@ import { marked } from "marked"
 import { type Monster, MonsterSchema, Stat } from "../../api/monster"
 import Layout from "../../layouts/Layout.astro"
 import Stats from "../../components/Stats.astro"
+import DiceField from "../../components/DiceField"
 
 interface Props {
     monster: Monster
@@ -76,7 +77,12 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
         </p>
         <p>
             <strong>Hit Points</strong>
-            <span>{hit_points} ({hit_dice})</span>
+            <span
+                >{hit_points} ({hit_dice})<DiceField
+                    formula={hit_dice}
+                    client:load
+                /></span
+            >
         </p>
         <p>
             <strong>Speed</strong>
