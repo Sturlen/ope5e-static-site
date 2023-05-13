@@ -1,47 +1,20 @@
 ---
 import Layout from "../layouts/Layout.astro"
-import { MonsterSchema } from "../api/monster"
-const modules = [...(await Astro.glob("/src/api/monsters.json"))] as [
-    { default: any[] }
-]
-
-const imgTag = (img: boolean) => (img ? "🖼️" : "")
-
-const Monsters = modules[0].default.map((raw) => MonsterSchema.parse(raw))
 ---
 
 <Layout title="Open5e Static Site Test">
     <main>
         <h1><span class="text-gradient">Open5e Test</span></h1>
         <p class="instructions">
-            This test current only has monsters (a whoppping 2461 at that), so
-            have a look and pick a devious monster for your players to fight
+            This site uses the Open5e api and renders it's content to static
+            webpage to become blazingly fast. Browse to your hearts desire.
         </p>
-        <ul role="list" class="link-card-grid">
-            {
-                Monsters.map((monster) => (
-                    <div class="card">
-                        <span class="title">
-                            <a href={`/monsters/${monster.slug}`}>
-                                <strong>{monster.name}</strong>
-                            </a>
+        <a href="https://open5e.com">Main Open5e Site</a>
+        <h2>Content</h2>
+        <p class="instructions"><a href="/classes">Classes</a></p>
 
-                            <span class="source">{monster.document__slug}</span>
-                        </span>
-                        <p>
-                            {"CR " +
-                                monster.challenge_rating +
-                                " " +
-                                monster.size +
-                                " " +
-                                monster.type +
-                                " " +
-                                imgTag(!!monster.img)}
-                        </p>
-                    </div>
-                ))
-            }
-        </ul>
+        <p class="instructions"><a href="/monsters">Monsters</a></p>
+        <p class="instructions"><a href="/spells">Spells</a></p>
     </main>
 </Layout>
 
@@ -82,11 +55,7 @@ const Monsters = modules[0].default.map((raw) => MonsterSchema.parse(raw))
     .instructions strong {
         color: rgb(var(--accent));
     }
-    .link-card-grid {
-        display: flex;
-        flex-direction: column;
-        padding: 0;
-    }
+
     .card {
         margin: 0.1rem 0;
         border: 1px solid rgba(var(--accent), 25%);

@@ -8,6 +8,7 @@ export const SpellSchema = z.object({
     page: z.string(),
     range: z.string(),
     target_range_sort: z.number(),
+    components: z.string(),
     requires_verbal_components: z.boolean(),
     requires_somatic_components: z.boolean(),
     requires_material_components: z.boolean(),
