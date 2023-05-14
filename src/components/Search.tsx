@@ -1,6 +1,6 @@
 import { useCallback, useMemo, useState } from "react"
 import algoliasearch from "algoliasearch/lite"
-import AlgoliaLogo from "../../public/Algolia-logo-blue.svg"
+
 import type { Monster } from "../api/monster"
 
 const algoliaClient = algoliasearch(
@@ -65,7 +65,7 @@ export default function Search({ initialResults }: AppProps) {
                 <span>Search powered by </span>
                 <img
                     className="algolia-logo"
-                    src={AlgoliaLogo}
+                    src="./Algolia-logo-blue.svg"
                     alt="Algolia logo"
                 />
             </div>
@@ -74,7 +74,10 @@ export default function Search({ initialResults }: AppProps) {
                 {results.map((hit) => (
                     <li key={hit.slug} className="card">
                         <span className="title">
-                            {hit.name}
+                            <a href={`/monsters/${hit.slug}`}>
+                                <strong>{hit.name}</strong>
+                            </a>
+
                             <span className="source">{hit.document__slug}</span>
                         </span>
                         <p>

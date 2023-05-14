@@ -14,30 +14,6 @@ const Monsters = modules[0].default.map((raw) => MonsterSchema.parse(raw))
 <Layout title="Monsters">
     <main>
         <h1>Monsters</h1>
-        <Search initialResults={Monsters} client:load>
-            {
-                Monsters.map((monster) => (
-                    <li class="card">
-                        <span class="title">
-                            <a href={`/monsters/${monster.slug}`}>
-                                <strong>{monster.name}</strong>
-                            </a>
-
-                            <span class="source">{monster.document__slug}</span>
-                        </span>
-                        <p>
-                            {"CR " +
-                                monster.challenge_rating +
-                                " " +
-                                monster.size +
-                                " " +
-                                monster.type +
-                                " " +
-                                imgTag(!!monster.img)}
-                        </p>
-                    </li>
-                ))
-            }
-        </Search>
+        <Search initialResults={Monsters} client:load />
     </main>
 </Layout>
