@@ -31,6 +31,8 @@ const searchClient = {
     },
 }
 
+const imgTag = (img: boolean) => (img ? "🖼️" : "")
+
 const MonsterIndex = searchClient.initIndex("monsters")
 
 type AppProps = {
@@ -86,7 +88,9 @@ export default function Search({ initialResults }: AppProps) {
                                 " " +
                                 hit.size +
                                 " " +
-                                hit.type}
+                                hit.type +
+                                " " +
+                                imgTag(!!hit.img)}
                         </p>
                     </li>
                 ))}

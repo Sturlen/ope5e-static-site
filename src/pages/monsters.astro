@@ -6,8 +6,6 @@ const modules = [...(await Astro.glob("/src/api/monsters.json"))] as [
     { default: any[] }
 ]
 
-const imgTag = (img: boolean) => (img ? "🖼️" : "")
-
 const Monsters = modules[0].default.map((raw) => MonsterSchema.parse(raw))
 ---
 
