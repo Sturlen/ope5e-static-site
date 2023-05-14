@@ -1,15 +1,7 @@
+import { useCallback, useMemo, useState } from "react"
 import algoliasearch from "algoliasearch/lite"
-import {
-    Hits,
-    InstantSearch,
-    PoweredBy,
-    RefinementList,
-    SearchBox,
-    Configure,
-    Highlight,
-    useHits,
-    Index,
-} from "react-instantsearch-hooks-web"
+import AlgoliaLogo from "../../public/Algolia-logo-blue.svg"
+import type { Monster } from "../api/monster"
 
 const algoliaClient = algoliasearch(
     import.meta.env.PUBLIC_ALGOLIA_APP_ID,
@@ -39,53 +31,66 @@ const searchClient = {
     },
 }
 
-function Hit({ hit }) {
-    return (
-        <a href={`/monsters/${hit.slug}`}>
-            <Highlight attribute="name" hit={hit} />
-        </a>
-    )
+const MonsterIndex = searchClient.initIndex("monsters")
+
+type AppProps = {
+    initialResults: Monster[]
 }
 
-function CustomHits(props) {
-    const { hits, results, sendEvent } = useHits(props)
+export default function Search({ initialResults }: AppProps) {
+    const [query, setQuery] = useState("")
+    const [results, setResults] = useState<Monster[]>(initialResults)
+
+    const refresh = useMemo(
+        () => async (value: string) => {
+            setQuery(value)
+            if (value === "") {
+                setResults(initialResults)
+            } else {
+                const response = await MonsterIndex.search<Monster>(value)
+                setResults(response.hits)
+            }
+        },
+        []
+    )
 
     return (
-        <div>
+        <div className="search">
+            <input
+                value={query}
+                onChange={(event) => refresh(event.target.value)}
+                placeholder="Search"
+            />
+            <div className="logo-box">
+                <span>Search powered by </span>
+                <img
+                    className="algolia-logo"
+                    src={AlgoliaLogo}
+                    alt="Algolia logo"
+                />
+            </div>
+
             <ol>
-                {hits.map((hit) => (
-                    <li key={hit.objectID}>
-                        <Highlight attribute="name" hit={hit} />
+                {results.map((hit) => (
+                    <li key={hit.slug} className="card">
+                        <span className="title">
+                            {hit.name}
+                            <span className="source">{hit.document__slug}</span>
+                        </span>
+                        <p>
+                            {"CR " +
+                                hit.challenge_rating +
+                                " " +
+                                hit.size +
+                                " " +
+                                hit.type}
+                        </p>
                     </li>
                 ))}
             </ol>
-            {hits.length > 0 && <PoweredBy className="c" />}
+            {results.length === 0 && (
+                <p>Critical Failure: Nothing was found.</p>
+            )}
         </div>
-    )
-}
-
-export default function Search() {
-    return (
-        <>
-            <h2>swag</h2>
-            <InstantSearch
-                searchClient={searchClient}
-                indexName="monsters"
-                initialUiState={{
-                    indexName: {
-                        query: undefined,
-                        page: 5,
-                    },
-                }}
-            >
-                <Configure analytics={false} filters="" hitsPerPage={5} />
-                <SearchBox />
-                <div>
-                    <CustomHits></CustomHits>
-                </div>
-
-                <RefinementList attribute="type" />
-            </InstantSearch>
-        </>
     )
 }

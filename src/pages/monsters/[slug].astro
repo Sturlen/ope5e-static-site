@@ -16,6 +16,12 @@ export async function getStaticPaths() {
 
     return modules[0].default
         .map((raw) => MonsterSchema.parse(raw))
+        .map(
+            ({ slug, ...rest }): Monster => ({
+                slug: slug.replaceAll(":", "-"),
+                ...rest,
+            })
+        ) //should do this in preprocessing
         .map((monster) => ({
             params: { slug: monster.slug },
             props: { monster },
