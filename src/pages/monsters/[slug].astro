@@ -4,6 +4,7 @@ import { type Monster, MonsterSchema, Stat } from "../../api/monster"
 import Layout from "../../layouts/Layout.astro"
 import Stats from "../../components/Stats.astro"
 import DiceField from "../../components/DiceField"
+import AddToBookmarks from "../../components/AddToBookmarks"
 
 interface Props {
     monster: Monster
@@ -55,6 +56,8 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
     <main>
         <h1>
             {name}
+            a
+            <AddToBookmarks slug={slug} client:only />
         </h1>
         <em>{desc}</em>
 
