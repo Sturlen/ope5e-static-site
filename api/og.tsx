@@ -13,7 +13,8 @@ export default function (request: Request) {
       <div
         style={{
           fontSize: 128,
-          background: 'white',
+          color: '#da6262',
+          background: '#f6f6f6',
           width: '100%',
           height: '100%',
           display: 'flex',

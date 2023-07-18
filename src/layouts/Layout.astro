@@ -5,11 +5,16 @@ export interface Props {
     image?: string | undefined
 }
 
+
 const {
     title,
     description = "5e content available under the OGL",
-    image = "/test_img.png",
+    image,
 } = Astro.props
+
+const params = new URLSearchParams({name: title}).toString()
+
+const image_url = image ?? `/api/og?${params}`
 ---
 
 <!DOCTYPE html>
@@ -29,8 +34,8 @@ const {
         <meta property="description" content={description} />
 
         <meta name="twitter:card" content="summary_large_image" />
-        <meta property="og:image" content={image} />
-        <meta name="twitter:image" content={image} />
+        <meta property="og:image" content={image_url} />
+        <meta name="twitter:image" content={image_url} />
 
         <meta name="twitter:url" content={Astro.url} />
     </head>
