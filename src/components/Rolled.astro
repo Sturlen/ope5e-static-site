@@ -3,10 +3,8 @@ interface Props {
     formula: string
 }
 import DiceField from "./DiceField"
-import { DiceRoll } from "@dice-roller/rpg-dice-roller"
 
 const { formula } = Astro.props
-const result = new DiceRoll(formula).total.toString()
 ---
 
-<DiceField formula={formula} initial={result} client:load />
+<DiceField formula={formula} client:load />

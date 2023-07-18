@@ -4,7 +4,7 @@ import { Class5eSchema } from "../api/class"
 const modules = [...(await Astro.glob("/src/api/classes.json"))] as [
     { default: any[] }
 ]
-const Classes = modules[0].default.map((raw) => Class5eSchema.parse(raw))
+const ClassData = modules[0].default.map((raw) => Class5eSchema.parse(raw))
 ---
 
 <Layout title="Classes">
@@ -12,7 +12,7 @@ const Classes = modules[0].default.map((raw) => Class5eSchema.parse(raw))
         <h1>Classes</h1>
         <ul role="list" class="link-card-grid">
             {
-                Classes.map((class5e) => (
+                ClassData.map((class5e) => (
                     <li class="card">
                         <span class="title">
                             <a href={`/classes/${class5e.slug}`}>

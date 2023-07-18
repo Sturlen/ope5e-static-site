@@ -4,7 +4,7 @@ import { SpellSchema } from "../api/spell"
 const modules = [...(await Astro.glob("/src/api/spells.json"))] as [
     { default: any[] }
 ]
-const Spells = modules[0].default.map((raw) => SpellSchema.parse(raw))
+const SpellData = modules[0].default.map((raw) => SpellSchema.parse(raw))
 ---
 
 <Layout title="Spells">
@@ -12,7 +12,7 @@ const Spells = modules[0].default.map((raw) => SpellSchema.parse(raw))
         <h1>Spells</h1>
         <ul role="list" class="link-card-grid">
             {
-                Spells.map((spell) => (
+                SpellData.map((spell) => (
                     <li class="card">
                         <span class="title">
                             <a href={`/spells/${spell.slug}`}>
