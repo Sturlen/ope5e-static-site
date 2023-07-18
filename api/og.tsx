@@ -4,7 +4,10 @@ export const config = {
   runtime: 'edge',
 };
  
-export default function () {
+export default function (request: Request) {
+  const url = new URL(request.url)
+
+  const name = url.searchParams.get("name") ?? "Creature"
   return new ImageResponse(
     (
       <div
@@ -19,7 +22,7 @@ export default function () {
           justifyContent: 'center',
         }}
       >
-        Hello world!
+        {name}
       </div>
     ),
     {
