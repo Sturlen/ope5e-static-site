@@ -14,7 +14,7 @@ const {
 
 const params = new URLSearchParams({name: title}).toString()
 
-const image_url = image ?? `/api/og?${params}`
+const image_url = image || `/api/og?${params}`
 ---
 
 <!DOCTYPE html>
