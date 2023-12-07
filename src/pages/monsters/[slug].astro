@@ -40,6 +40,8 @@ const {
 const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
     subtype ? " (" + subtype + ")" : ""
 }, ${monster.alignment ?? ""} (CR ${challenge_rating})`
+
+const SEO = `The ${name} is a CR ${challenge_rating} ${monster.size} ${monster.type}.`
 ---
 
 <Layout title={monster.name} description={desc} image={img}>
@@ -130,7 +132,8 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
         <h2>Actions</h2>
 
         {
-            typeof actions !== "string" &&
+            actions &&
+                typeof actions !== "string" &&
                 actions.map((action) => (
                     <div>
                         <h3>{action.name}.</h3>

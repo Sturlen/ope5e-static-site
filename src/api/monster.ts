@@ -50,7 +50,8 @@ export const MonsterSchema = z
                         attack_bonues: z.string().nullish(),
                     })
                 )
-            ),
+            )
+            .transform((m) => (Array.isArray(m) ? m : [])),
         reactions: z
             .string()
             .nullish()
