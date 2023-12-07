@@ -59,9 +59,14 @@ endpoints.forEach((endpoint) => {
         readFileSync(`./cache/${endpoint}.json`, { encoding: "utf-8" })
     )
     const transformer_func = transformers.get(endpoint) ?? identity
+    /** @type Array<Record<string, any>> */
     const output = transformer_func(input)
 
-    writeFileSync(`./src/api/${endpoint}.json`, JSON.stringify(output), {
-        encoding: "utf-8",
+    output.forEach((item) => {
+        const slug = item.slug
+        const content = JSON.stringify(item)
+        writeFileSync(`./src/content/${endpoint}/${slug}.json`, content, {
+            encoding: "utf-8",
+        })
     })
 })

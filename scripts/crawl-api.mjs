@@ -2,6 +2,8 @@ import dotenv from "dotenv"
 import { writeFile } from "fs/promises"
 dotenv.config()
 
+const OPEN5E_API = "https://open5eapi.spetland.no"
+
 const endpoints = [
     "manifest",
     "monsters",
@@ -35,7 +37,7 @@ console.time("total")
 
 for (const endpoint of endpoints) {
     console.group(endpoint)
-    const endpoint_url = `${process.env.OPEN5E_API}/${endpoint}/`
+    const endpoint_url = `${OPEN5E_API}/${endpoint}/`
     const results = []
     console.time("fetch")
     await crawler(endpoint_url, results)

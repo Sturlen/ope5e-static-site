@@ -1,18 +1,5 @@
 [
     {
-        "slug": "grappler",
-        "name": "Grappler",
-        "desc": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:",
-        "prerequisite": "Prerequisite: Strength 13 or higher",
-        "effects_desc": [
-            "You have advantage on attack rolls against a creature you are grappling.",
-            "You can use your action to try to pin a creature grappled by you. The creature makes a Strength or Dexterity saving throw against your maneuver DC. On a failure, you and the creature are both restrained until the grapple ends."
-        ],
-        "document__slug": "wotc-srd",
-        "document__title": "Systems Reference Document",
-        "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
-    },
-    {
         "slug": "ace-driver",
         "name": "Ace Driver",
         "desc": "You are a virtuoso of driving and piloting vehicles, able to push them beyond their normal limits and maneuver them with fluid grace through hazardous situations. You gain the following benefits:",
@@ -26,8 +13,8 @@
             "When you Brake, you can choose to immediately stop the vehicle without traveling half of its movement speed directly forward."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "athletic",
@@ -41,8 +28,8 @@
             "You can make a running long jump or a running high jump after moving 5 feet on foot (instead of 10 feet)."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "attentive",
@@ -54,8 +41,8 @@
             "You can only be surprised if you are unconscious. A creature attacking you does not gain advantage from being hidden from you or unseen by you."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "battle-caster",
@@ -68,8 +55,21 @@
             "Instead of making an opportunity attack with a weapon, you may use your reaction to cast a spell with a casting time of 1 action. The spell must be one that only targets that creature."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "boundless-reserves",
+        "name": "Boundless Reserves",
+        "desc": "You have learned to harness your inner vitality to replenish your ki. You gain the following benefits:",
+        "prerequisite": "*Wisdom 13 or higher and the Ki class feature*",
+        "effects_desc": [
+            "* Increase your Wisdom score by 1, to a maximum of 20.",
+            "* When you start your turn and have no ki points remaining, you can use a reaction to spend one Hit Die. Roll the die and add your Constitution modifier to it. You regain expended ki points equal to up to half the total (minimum of 1). You can never have more ki points than the maximum for your level. Hit Dice spent using this feat can't be used to regain hit points during a short rest. You regain spent Hit Dice as normal."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
     },
     {
         "slug": "brutal-attack",
@@ -78,8 +78,8 @@
         "prerequisite": null,
         "effects_desc": [],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "bull-rush",
@@ -88,8 +88,8 @@
         "prerequisite": null,
         "effects_desc": [],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "combat-thievery",
@@ -101,8 +101,8 @@
             "You gain an expertise die on Sleight of Hand checks."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "covert-training",
@@ -114,8 +114,8 @@
             "You gain two skill tricks of your choice from the rogue class."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "crafting-expert",
@@ -128,8 +128,8 @@
             "You gain proficiency with two tools of your choice."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "crossbow-expertise",
@@ -142,8 +142,8 @@
             "If you take the attack action while wielding a hand crossbow in your off-hand, you may use your bonus action to attack with it."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "deadeye",
@@ -156,8 +156,8 @@
             "Before making an attack with a ranged weapon you are proficient with, you may choose to forgo your proficiency bonus on the attack roll, applying twice your proficiency bonus to damage instead."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "deflector",
@@ -166,8 +166,8 @@
         "prerequisite": "Prerequisite: Dexterity 13 or higher",
         "effects_desc": [],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "destinys-call",
@@ -179,8 +179,22 @@
             "When you gain inspiration through your destiny's source of inspiration, you can choose one party member within 30 feet of you. That party member gains inspiration if they don't have it already. Once you inspire a party member in this way, you can't use this feature again on that party member until you finish a long rest."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "diehard",
+        "name": "Diehard",
+        "desc": "You are difficult to wear down and kill. You gain the following benefits:",
+        "prerequisite": "*Constitution 13 or higher*",
+        "effects_desc": [
+            "* Increase your Constitution score by 1, up to a maximum of 20.",
+            "* You have advantage on saving throws against effects that cause you to suffer a level of exhaustion.",
+            "* You have advantage on death saving throws."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
     },
     {
         "slug": "dual-wielding-expert",
@@ -193,8 +207,8 @@
             "You can sheathe or unsheathe two weapons as part of your movement action."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "dungeoneer",
@@ -207,8 +221,8 @@
             "Your travel speed does not adversely affect your passive perception score."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "empathic",
@@ -221,8 +235,8 @@
             "When using a social skill and making a Charisma check against another creature, you score a critical success on a roll of 19–20."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "fear-breaker",
@@ -234,8 +248,37 @@
             "An ally affected by your Victory Pose gains an expertise die on their next saving throw against fear, and if they are rattled the condition ends for them."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "floriographer",
+        "name": "Floriographer",
+        "desc": "You have studied the secret language of Floriography. You gain the following benefits:",
+        "prerequisite": "*Proficiency in one of the following skills: Arcana, History, or Nature*",
+        "effects_desc": [
+            "* Increase your Intelligence or Wisdom score by 1, to a maximum of 20.",
+            "* You learn Floriography, the language of flowers. Similar to Druidic and Thieves' Cant, Floriography is a secret language often used to communicate subtle ideas, symbolic meaning, and even basic messages. Floriography is conveyed through the combinations of colors, styles, and even types of flowers in bouquets, floral arrangements, and floral illustrations, often with a gift-giving component.",
+            "* Your fluency with the subtle messages in floral displays gives you a keen eye for discerning subtle or hidden messages elsewhere. You have advantage on Intelligence (Investigation) and Wisdom (Insight) checks to notice and discern hidden messages of a visual nature, such as the runes of a magic trap or the subtle hand signals passing between two individuals."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
+    },
+    {
+        "slug": "forest-denizen",
+        "name": "Forest Denizen",
+        "desc": "You are familiar with the ways of the forest. You gain the following benefits:",
+        "prerequisite": "*N/A*",
+        "effects_desc": [
+            "* Increase your Wisdom score by 1, to a maximum of 20.",
+            "* You can discern if a plant or fungal growth is safe to eat.",
+            "* You learn to speak, read, and write Sylvan.",
+            "* You have advantage on Strength (Athletics) and Dexterity (Acrobatics) checks you make to escape from being grappled or restrained as long as you are being grappled or restrained by nonmagical vegetation or a beast's action such as a giant frog's bite or a spider's web."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
     },
     {
         "slug": "fortunate",
@@ -247,8 +290,49 @@
             "Before determining the result of an attack made against you, roll a second d20 and select which die to use."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "friend-of-the-forest",
+        "name": "Friend of the Forest",
+        "desc": "After spending some time in forests, you have attuned yourself to the ways of the woods and the creatures in it.  ",
+        "prerequisite": "*N/A*",
+        "effects_desc": [
+            "* You learn the *treeheal* (see the Magic and Spells chapter) cantrip and two other druid cantrips of your choice.",
+            "* You also learn the *speak with animals* spell and can cast it once without expending a spell slot. Once you cast it, you must finish a short or long rest before you can cast it in this way again. Your spellcasting ability for these spells is Wisdom."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
+    },
+    {
+        "slug": "giant-foe",
+        "name": "Giant Foe",
+        "desc": "Your experience fighting giants, such as ogres, trolls, and frost giants, has taught you how to avoid their deadliest blows and how to wield mighty weapons to better combat them. You gain the following benefits:",
+        "prerequisite": "*A Small or smaller race*",
+        "effects_desc": [
+            "* Increase your Strength score by 1, to a maximum of 20.",
+            "* If you normally have disadvantage on attack rolls made with weapons with the Heavy property due to your size, you don't have disadvantage on those attack rolls.",
+            "* When a giant attacks you, any critical hit from it against you becomes a normal hit.",
+            "* Whenever you make an Intelligence (History) check related to the culture or origins of a giant, you are considered proficient in the History skill and add double your proficiency bonus to the check, instead of your normal proficiency bonus."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
+    },
+    {
+        "slug": "grappler",
+        "name": "Grappler",
+        "desc": "You've developed the skills necessary to hold your own in close-quarters grappling. You gain the following benefits:",
+        "prerequisite": "Prerequisite: Strength 13 or higher",
+        "effects_desc": [
+            "You have advantage on attack rolls against a creature you are grappling.",
+            "You can use your action to try to pin a creature grappled by you. The creature makes a Strength or Dexterity saving throw against your maneuver DC. On a failure, you and the creature are both restrained until the grapple ends."
+        ],
+        "document__slug": "wotc-srd",
+        "document__title": "5e Core Rules",
+        "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
     },
     {
         "slug": "guarded-warrior",
@@ -261,8 +345,8 @@
             "You may make attacks of opportunity against creatures that have taken the disengage action when they leave your threatened area."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "hardy-adventurer",
@@ -274,8 +358,21 @@
             "During a short rest, you regain 1 additional hit point per hit die spent to heal."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "harrier",
+        "name": "Harrier",
+        "desc": "You have learned to maximize the strategic impact of your misty step. You appear in a flash and, while your foe is disoriented, attack with deadly precision. You gain the following benefits:",
+        "prerequisite": "*The Shadow Traveler shadow fey trait or the ability to cast the* misty step *spell*",
+        "effects_desc": [
+            "* Increase your Strength or Dexterity score by 1, to a maximum of 20.",
+            "* When you use your Shadow Traveler trait or cast misty step, you have advantage on the next attack you make before the end of your turn."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
     },
     {
         "slug": "heavily-outfitted",
@@ -287,8 +384,8 @@
             "Learn the heavy armor proficiency."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "heavy-armor-expertise",
@@ -300,8 +397,8 @@
             "You reduce incoming physical (piercing, slashing, or bludgeoning) damage by 3 so long as you are wearing heavy armor. This bonus is negated if the damage is dealt by a magical weapon."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "heraldic-training",
@@ -313,8 +410,8 @@
             "You gain two divine lessons of your choice from the herald class."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "idealistic-leader",
@@ -327,8 +424,22 @@
             "When you fulfill your destiny, choose a number of followers equal to your proficiency bonus. Each is upgraded to their most expensive version."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "inner-resilience",
+        "name": "Inner Resilience",
+        "desc": "Your internal discipline gives you access to a small pool of ki points. You gain the following benefits:",
+        "prerequisite": "*Wisdom 13 or higher*",
+        "effects_desc": [
+            "* Increase your Wisdom score by 1, to a maximum of 20",
+            "* You have 3 ki points, which you can spend to fuel the Patient Defense or Step of the Wind features from the monk class. When you spend a ki point, it is unavailable until you finish a short or long rest, at the end of which you draw all of your expended ki back into yourself. You must spend at least 30 minutes of the rest meditating to regain your ki points",
+            "* If you already have ki points, your ki point maximum increases by 3 instead."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
     },
     {
         "slug": "intuitive",
@@ -341,8 +452,8 @@
             "Increase your passive perception and investigation scores by +5."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "keen-intellect",
@@ -356,8 +467,8 @@
             "You precisely know the time without the need for a clock."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "lightly-outfitted",
@@ -369,8 +480,8 @@
             "Learn the light armor proficiency."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "linguistics-expert",
@@ -383,8 +494,8 @@
             "By spending an hour, you can develop a cipher that you are able to teach to others. Anyone who knows the cipher can encode and read hidden messages made with it; the apparent text must be at least four times longer than the hidden message. Other creatures can detect the presence of the cipher if they spend a minute examining it and succeed on an Investigation check against a DC equal to 8 + your proficiency bonus + your Intelligence modifier. If the check succeeds by 5 or more, they can read the hidden message."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "martial-scholar",
@@ -397,8 +508,8 @@
             "Your exertion pool increases by 3. If you do not have an exertion pool, you gain an exertion pool with 3 exertion, regaining your exertion whenever you finish a short or long rest."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "medium-armor-expert",
@@ -410,8 +521,8 @@
             "The maximum Dexterity modifier you can add to your Armor Class increases from 2 to 3 when you are wearing medium armor."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "moderately-outfitted",
@@ -423,8 +534,8 @@
             "Learn the medium armor and shield proficiencies."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "monster-hunter",
@@ -438,8 +549,8 @@
             "You gain the tracking skill specialty in Survival."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "mounted-warrior",
@@ -452,8 +563,8 @@
             "Your mount gains Evasion, as per the 7th level rogue class feature, while you are riding it."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "mystical-talent",
@@ -466,8 +577,8 @@
             "The spellcasting ability for these spells is the same as the spellcasting class from which the spells are drawn."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "natural-warrior",
@@ -481,8 +592,21 @@
             "You can roll 1d4 in place of your normal damage for unarmed strikes. When rolling damage for your unarmed strikes, you can choose to deal bludgeoning, piercing, or slashing damage."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "part-of-the-pact",
+        "name": "Part of the Pact",
+        "desc": "Wolves are never seen to be far from your side and consider you to be a packmate. You gain the following benefits:",
+        "prerequisite": "*Proficiency in the Animal Handling skill*",
+        "effects_desc": [
+            "* Through growls, barks, and gestures, you can communicate simple ideas with canines. For the purposes of this feat, a \"canine\" is any beast with dog or wolf-like features. You can understand them in return, though this is often limited to knowing the creature's current or most recent state, such as \"hungry\", \"content\", or \"in danger.\"",
+            "* As an action, you can howl to summon a wolf to assist you. The wolf appears in 1d4 rounds and remains within 50 feet of you until 1 hour elapses or until it dies, whichever occurs first. You can't control the wolf, but it doesn't attack you or your companions. It acts on its own initiative, and it attacks creatures attacking you or your companions. If you are 5th level or higher, your howl summons a number of wolves equal to your proficiency bonus. When your howl summons multiple wolves, you have a 50 percent chance that one of the wolves is a dire wolf instead. Your summoned pack can have no more than one dire wolf. While at least one wolf is with you, you have advantage on Wisdom (Survival) checks to hunt for food or to find shelter. At the GM's discretion, you may not be able to summon a wolf or multiple wolves if you are indoors or in a region where wolves aren't native, such as the middle of the sea. Once you have howled to summon a wolf or wolves with this feat, you must finish a long rest before you can do so again."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
     },
     {
         "slug": "physician",
@@ -494,8 +618,8 @@
             "You may grant an adjacent creature hit points equal to their highest hit die plus 1d6+4 as an action. A creature may only benefit from this ability once per long rest."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "polearm-savant",
@@ -507,8 +631,8 @@
             "You may expend your bonus action to make a haft attack after taking the attack action with a hafted weapon. This attack uses the same attribute modifier as the primary attack and inflicts a d4 bludgeoning damage."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "power-caster",
@@ -521,8 +645,8 @@
             "Select and learn one cantrip requiring an attack roll from any spell list. The spellcasting ability for these spells is the same as the spellcasting class from which the spell is drawn."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "powerful-attacker",
@@ -534,8 +658,8 @@
             "Before you make an attack with a heavy weapon you are proficient with, you can choose to make the attack roll with disadvantage. If the attack hits, you deal 10 extra damage."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "primordial-caster",
@@ -547,8 +671,8 @@
             "When you cast a spell that deals damage of the chosen type, you deal 1 additional damage for every damage die with a result of 1."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "rallying-speaker",
@@ -557,8 +681,21 @@
         "prerequisite": "Requires Charisma 13",
         "effects_desc": [],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "rapid-drinker",
+        "name": "Rapid Drinker",
+        "desc": "Through a lifestyle of hard, competitive drinking, you’ve learned how to quaff drinks at an incredibly accelerated pace. You gain the following benefits:",
+        "prerequisite": "*N/A*",
+        "effects_desc": [
+            "* You can drink a potion as a Bonus action, instead of as an action.",
+            "* You have advantage on any saving throws triggered by ingesting an alcoholic or dangerous substance."
+        ],
+        "document__slug": "taldorei",
+        "document__title": "Critical Role: Tal’Dorei Campaign Setting",
+        "document__url": "https://https://greenronin.com/blog/2017/09/25/ronin-round-table-integrating-wizards-5e-adventures-with-the-taldorei-campaign-setting/"
     },
     {
         "slug": "resonant-bond",
@@ -572,8 +709,21 @@
             "If the resonant item is an artifact, you can ignore the effects of one minor detrimental property."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "rimecaster",
+        "name": "Rimecaster",
+        "desc": "You are from an area with a cold climate and have learned to adapt your magic to reflect your heritage. You gain the following benefits:",
+        "prerequisite": "*A race or background from a cold climate and the ability to cast at least one spell*",
+        "effects_desc": [
+            "* When you cast a spell that deals damage, you can use a reaction to change the type of damage the spell deals to cold damage.",
+            "* When you cast a spell that deals cold damage, you gain resistance to cold damage until the start of your next turn. If you already have resistance to cold damage, you are immune to cold damage until the start of your next turn instead."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
     },
     {
         "slug": "rite-master",
@@ -582,8 +732,8 @@
         "prerequisite": "Requires intelligence or Wisdom 13 or higher",
         "effects_desc": [],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "shield-focus",
@@ -596,8 +746,8 @@
             "While wielding a shield, you may expend your reaction following a successful Dexterity saving throw to take no damage from a spell or effect."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "skillful",
@@ -606,8 +756,8 @@
         "prerequisite": null,
         "effects_desc": [],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "skirmisher",
@@ -620,8 +770,21 @@
             "Your attacks prevent creatures from making opportunity attacks against you."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "sorcerous-vigor",
+        "name": "Sorcerous Vigor",
+        "desc": "When your magical reserves are low, you can call on your lifeforce to fuel your magic.",
+        "prerequisite": "*Charisma 13 or higher and the Sorcery Points class feature*",
+        "effects_desc": [
+            "* Increase your Charisma score by 1, to a maximum of 20.",
+            "* When you start your turn and have no sorcery points remaining, you can use a reaction to spend one Hit Die. Roll the die and add your Constitution modifier to it. You regain expended sorcery points equal to up to half the total (minimum of 1). You can never have more sorcery points than the maximum for your level. Hit Dice spent using this feat can't be used to regain hit points during a short rest. You regain spent Hit Dice as normal."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
     },
     {
         "slug": "spellbreaker",
@@ -634,8 +797,21 @@
             "You gain magic resistance against all spells cast within 30 feet of you."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "stalker",
+        "name": "Stalker",
+        "desc": "You are an expert at hunting prey. You are never more at home than when on a hunt, and your quarry rarely escapes you. You gain the following benefits:",
+        "prerequisite": "*N/A*",
+        "effects_desc": [
+            "* You gain proficiency in the Stealth and Survival skills.",
+            "* You have advantage on Wisdom (Survival) checks made to track a creature you have seen in the past 24 hours."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
     },
     {
         "slug": "stalwart",
@@ -647,8 +823,8 @@
             "You regain an additional number of hit points equal to double your Constitution modifier (minimum 2) whenever you roll a hit die to regain hit points."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "stealth-expert",
@@ -661,8 +837,8 @@
             "Your Wisdom (Perception) checks are not adversely affected by dim light."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "street-fighter",
@@ -676,8 +852,20 @@
             "You may expend your bonus action to attempt the Grapple maneuver on an enemy you've hit with an unarmed or improvised weapon attack."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
+    },
+    {
+        "slug": "stunning-sniper",
+        "name": "Stunning Sniper",
+        "desc": "You have mastered the use of ranged weapons to cripple your target from a distance.",
+        "prerequisite": "*Proficiency with a ranged weapon*",
+        "effects_desc": [
+            "* When you score a critical hit on a ranged attack roll, you can stun the target until the start of your next turn instead of doubling the damage."
+        ],
+        "document__slug": "toh",
+        "document__title": "Tome of Heroes",
+        "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
     },
     {
         "slug": "surgical-combatant",
@@ -690,8 +878,8 @@
             "You gain an expertise die on Medicine checks made to diagnose the cause of or treat wounds."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "survivor",
@@ -706,8 +894,8 @@
             "When a creature successfully stabilizes you, at the start of your next turn you regain 1 hit point. Once you have used this feature, you can't use it again until you finish a long rest."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "swift-combatant",
@@ -719,8 +907,8 @@
             "You gain proficiency with the Charge, Rapid Drink, and Swift Stance maneuvers, and do not have to spend exertion to activate them."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "tactical-support",
@@ -733,8 +921,8 @@
             "When a creature is damaged by an attack that was aided by the use of your Help action, you don't provoke opportunity attacks from that creature until the end of your next turn."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "tenacious",
@@ -743,8 +931,8 @@
         "prerequisite": "Choose an attribute and raise it by 1, up to the attribute cap of 20, and become proficient with saving throws using the selected attribute.",
         "effects_desc": [],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "thespian",
@@ -757,8 +945,8 @@
             "You may perfectly mimic the voice or sounds of another creature. A creature with a reason to be suspicious may attempt a Wisdom (Insight) check opposed by your Charisma (Deception) to see through your ruse."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "weapons-specialist",
@@ -770,8 +958,8 @@
             "Select and learn any four weapon proficiencies. Three of these must be a simple or martial weapons. The fourth choice can be a simple, martial, or rare weapon."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "well-heeled",
@@ -784,8 +972,8 @@
             "You gain a second Prestige Center. This must be an area where you have spent at least a week of time."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     },
     {
         "slug": "woodcraft-training",
@@ -797,7 +985,7 @@
             "You gain two exploration knacks of your choice from the ranger class."
         ],
         "document__slug": "a5e",
-        "document__title": "Advanced 5th Edition System Reference Document",
-        "document__url": "https://www.levelup5e.com/system-reference-document"
+        "document__title": "Level Up Advanced 5e",
+        "document__url": "https://a5esrd.com/a5esrd"
     }
 ]
