@@ -1,6 +1,6 @@
 ---
 import { marked } from "marked"
-import { type Monster, MonsterSchema, Stat } from "../../api/monster"
+import { type Monster, MonsterSchema, type Stat } from "../../api/monster"
 import Layout from "../../layouts/Layout.astro"
 import Stats from "../../components/Stats.astro"
 import DiceField from "../../components/DiceField"
@@ -11,7 +11,7 @@ interface Props {
 
 export async function getStaticPaths() {
     const modules = [...(await Astro.glob("/src/api/monsters.json"))] as [
-        { default: any[] }
+        { default: any[] },
     ]
 
     return modules[0].default
@@ -20,7 +20,7 @@ export async function getStaticPaths() {
             ({ slug, ...rest }): Monster => ({
                 slug: slug.replaceAll(":", "-"),
                 ...rest,
-            })
+            }),
         ) //should do this in preprocessing
         .map((monster) => ({
             params: { slug: monster.slug },
@@ -97,7 +97,9 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
                     Object.keys(speed)
                         .map(
                             (key) =>
-                                `${key === "walk" ? "" : key} ${speed[key]} ft.`
+                                `${key === "walk" ? "" : key} ${
+                                    speed[key]
+                                } ft.`,
                         )
                         .join(", ")
                 }</span
@@ -147,12 +149,11 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
                                 {
                                     headerIds: false,
                                     mangle: false,
-                                }
+                                },
                             )}
                         />
                     </div>
                 ))
-            // should markdown viewer these
         }
         <hr />
         <Stats data={data} />
