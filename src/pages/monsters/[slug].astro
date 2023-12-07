@@ -41,10 +41,10 @@ const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
     subtype ? " (" + subtype + ")" : ""
 }, ${monster.alignment ?? ""} (CR ${challenge_rating})`
 
-const SEO = `The ${name} is a CR ${challenge_rating} ${monster.size} ${monster.type}.`
+const SEO = `The ${name} is a CR ${challenge_rating} ${monster.size} ${monster.type}. It has ${hit_points} and an armor class of ${armor_class}. Source: ${monster.document__title}`
 ---
 
-<Layout title={monster.name} description={desc} image={img}>
+<Layout title={monster.name} description={SEO} image={img}>
     <main>
         <h1>
             {name}
