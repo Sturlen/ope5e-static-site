@@ -64,7 +64,7 @@ endpoints.forEach((endpoint) => {
 
     output.forEach((item) => {
         const slug = item.slug
-        const content = JSON.stringify(item)
+        const content = JSON.stringify(item, null, 4)
         writeFileSync(`./src/content/${endpoint}/${slug}.json`, content, {
             encoding: "utf-8",
         })

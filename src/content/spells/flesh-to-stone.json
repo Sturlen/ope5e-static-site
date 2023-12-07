@@ -1,1 +1,35 @@
-{"slug":"flesh-to-stone","name":"Flesh to Stone","desc":"You attempt to turn one creature that you can see within range into stone. If the target's body is made of flesh, the creature must make a constitution saving throw. On a failed save, it is restrained as its flesh begins to harden. On a successful save, the creature isn't affected. A creature restrained by this spell must make another constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the petrified condition for the duration. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind. If the creature is physically broken while petrified, it suffers from similar deformities if it reverts to its original state. If you maintain your concentration on this spell for the entire possible duration, the creature is turned to stone until the effect is removed.","higher_level":"","page":"phb 243","range":"60 feet","target_range_sort":60,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"A pinch of lime, water, and earth.","can_be_cast_as_ritual":false,"ritual":"no","duration":"Up to 1 minute","concentration":"yes","requires_concentration":true,"casting_time":"1 action","level":"6th-level","level_int":6,"spell_level":6,"school":"Transmutation","dnd_class":"Warlock, Wizard","spell_lists":["warlock","wizard"],"archetype":"","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "flesh-to-stone",
+    "name": "Flesh to Stone",
+    "desc": "You attempt to turn one creature that you can see within range into stone. If the target's body is made of flesh, the creature must make a constitution saving throw. On a failed save, it is restrained as its flesh begins to harden. On a successful save, the creature isn't affected. A creature restrained by this spell must make another constitution saving throw at the end of each of its turns. If it successfully saves against this spell three times, the spell ends. If it fails its saves three times, it is turned to stone and subjected to the petrified condition for the duration. The successes and failures don't need to be consecutive; keep track of both until the target collects three of a kind. If the creature is physically broken while petrified, it suffers from similar deformities if it reverts to its original state. If you maintain your concentration on this spell for the entire possible duration, the creature is turned to stone until the effect is removed.",
+    "higher_level": "",
+    "page": "phb 243",
+    "range": "60 feet",
+    "target_range_sort": 60,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "A pinch of lime, water, and earth.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Up to 1 minute",
+    "concentration": "yes",
+    "requires_concentration": true,
+    "casting_time": "1 action",
+    "level": "6th-level",
+    "level_int": 6,
+    "spell_level": 6,
+    "school": "Transmutation",
+    "dnd_class": "Warlock, Wizard",
+    "spell_lists": [
+        "warlock",
+        "wizard"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

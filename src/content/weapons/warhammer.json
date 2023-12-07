@@ -1,1 +1,16 @@
-{"name":"Warhammer","slug":"warhammer","category":"Martial Melee Weapons","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd","cost":"15 gp","damage_dice":"1d8","damage_type":"bludgeoning","weight":"2 lb.","properties":["versatile (1d10)"]}
+{
+    "name": "Warhammer",
+    "slug": "warhammer",
+    "category": "Martial Melee Weapons",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+    "cost": "15 gp",
+    "damage_dice": "1d8",
+    "damage_type": "bludgeoning",
+    "weight": "2 lb.",
+    "properties": [
+        "versatile (1d10)"
+    ]
+}

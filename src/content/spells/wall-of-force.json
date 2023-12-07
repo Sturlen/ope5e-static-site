@@ -1,1 +1,34 @@
-{"slug":"wall-of-force","name":"Wall of Force","desc":"An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side). Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by dispel magic. A disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.","higher_level":"","page":"phb 285","range":"120 feet","target_range_sort":120,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"A pinch of powder made by crushing a clear gemstone.","can_be_cast_as_ritual":false,"ritual":"no","duration":"Up to 10 minutes","concentration":"yes","requires_concentration":true,"casting_time":"1 action","level":"5th-level","level_int":5,"spell_level":5,"school":"Evocation","dnd_class":"Wizard","spell_lists":["wizard"],"archetype":"","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "wall-of-force",
+    "name": "Wall of Force",
+    "desc": "An invisible wall of force springs into existence at a point you choose within range. The wall appears in any orientation you choose, as a horizontal or vertical barrier or at an angle. It can be free floating or resting on a solid surface. You can form it into a hemispherical dome or a sphere with a radius of up to 10 feet, or you can shape a flat surface made up of ten 10-foot-by-10-foot panels. Each panel must be contiguous with another panel. In any form, the wall is 1/4 inch thick. It lasts for the duration. If the wall cuts through a creature's space when it appears, the creature is pushed to one side of the wall (your choice which side). Nothing can physically pass through the wall. It is immune to all damage and can't be dispelled by dispel magic. A disintegrate spell destroys the wall instantly, however. The wall also extends into the Ethereal Plane, blocking ethereal travel through the wall.",
+    "higher_level": "",
+    "page": "phb 285",
+    "range": "120 feet",
+    "target_range_sort": 120,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "A pinch of powder made by crushing a clear gemstone.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Up to 10 minutes",
+    "concentration": "yes",
+    "requires_concentration": true,
+    "casting_time": "1 action",
+    "level": "5th-level",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Evocation",
+    "dnd_class": "Wizard",
+    "spell_lists": [
+        "wizard"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

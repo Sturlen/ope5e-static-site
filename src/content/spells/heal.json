@@ -1,1 +1,35 @@
-{"slug":"heal","name":"Heal","desc":"Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This spell also ends blindness, deafness, and any diseases affecting the target. This spell has no effect on constructs or undead.","higher_level":"When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th.","page":"phb 250","range":"60 feet","target_range_sort":60,"components":"V, S","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":false,"material":"","can_be_cast_as_ritual":false,"ritual":"no","duration":"Instantaneous","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"6th-level","level_int":6,"spell_level":6,"school":"Evocation","dnd_class":"Cleric, Druid","spell_lists":["cleric","druid"],"archetype":"","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "heal",
+    "name": "Heal",
+    "desc": "Choose a creature that you can see within range. A surge of positive energy washes through the creature, causing it to regain 70 hit points. This spell also ends blindness, deafness, and any diseases affecting the target. This spell has no effect on constructs or undead.",
+    "higher_level": "When you cast this spell using a spell slot of 7th level or higher, the amount of healing increases by 10 for each slot level above 6th.",
+    "page": "phb 250",
+    "range": "60 feet",
+    "target_range_sort": 60,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "6th-level",
+    "level_int": 6,
+    "spell_level": 6,
+    "school": "Evocation",
+    "dnd_class": "Cleric, Druid",
+    "spell_lists": [
+        "cleric",
+        "druid"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

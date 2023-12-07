@@ -1,1 +1,36 @@
-{"slug":"stone-shape","name":"Stone Shape","desc":"You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape that suits your purpose. So, for example, you could shape a large rock into a weapon, idol, or coffer, or make a small passage through a wall, as long as the wall is less than 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.","higher_level":"","page":"phb 278","range":"Touch","target_range_sort":1,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"Soft clay, to be crudely worked into the desired shape for the stone object.","can_be_cast_as_ritual":false,"ritual":"no","duration":"Instantaneous","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"4th-level","level_int":4,"spell_level":4,"school":"Transmutation","dnd_class":"Cleric, Druid, Wizard","spell_lists":["wizard","cleric","druid"],"archetype":"","circles":"Mountain, Underdark","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "stone-shape",
+    "name": "Stone Shape",
+    "desc": "You touch a stone object of Medium size or smaller or a section of stone no more than 5 feet in any dimension and form it into any shape that suits your purpose. So, for example, you could shape a large rock into a weapon, idol, or coffer, or make a small passage through a wall, as long as the wall is less than 5 feet thick. You could also shape a stone door or its frame to seal the door shut. The object you create can have up to two hinges and a latch, but finer mechanical detail isn't possible.",
+    "higher_level": "",
+    "page": "phb 278",
+    "range": "Touch",
+    "target_range_sort": 1,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "Soft clay, to be crudely worked into the desired shape for the stone object.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "4th-level",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Transmutation",
+    "dnd_class": "Cleric, Druid, Wizard",
+    "spell_lists": [
+        "wizard",
+        "cleric",
+        "druid"
+    ],
+    "archetype": "",
+    "circles": "Mountain, Underdark",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

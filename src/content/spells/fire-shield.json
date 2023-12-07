@@ -1,1 +1,35 @@
-{"slug":"fire-shield","name":"Fire Shield","desc":"Thin and vaporous flame surround your body for the duration of the spell, radiating a bright light bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell using an action to make it disappear. The flames are around you a heat shield or cold, your choice. The heat shield gives you cold damage resistance and the cold resistance to fire damage. In addition, whenever a creature within 5 feet of you hits you with a melee attack, flames spring from the shield. The attacker then suffers 2d8 points of fire damage or cold, depending on the model.","higher_level":"","page":"phb 242","range":"Self","target_range_sort":0,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"A little phosphorus or a firefly.","can_be_cast_as_ritual":false,"ritual":"no","duration":"10 minutes","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"4th-level","level_int":4,"spell_level":4,"school":"Evocation","dnd_class":"Warlock, Wizard","spell_lists":["warlock","wizard"],"archetype":"Warlock: Fiend","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "fire-shield",
+    "name": "Fire Shield",
+    "desc": "Thin and vaporous flame surround your body for the duration of the spell, radiating a bright light bright light in a 10-foot radius and dim light for an additional 10 feet. You can end the spell using an action to make it disappear. The flames are around you a heat shield or cold, your choice. The heat shield gives you cold damage resistance and the cold resistance to fire damage. In addition, whenever a creature within 5 feet of you hits you with a melee attack, flames spring from the shield. The attacker then suffers 2d8 points of fire damage or cold, depending on the model.",
+    "higher_level": "",
+    "page": "phb 242",
+    "range": "Self",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "A little phosphorus or a firefly.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "10 minutes",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "4th-level",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Evocation",
+    "dnd_class": "Warlock, Wizard",
+    "spell_lists": [
+        "warlock",
+        "wizard"
+    ],
+    "archetype": "Warlock: Fiend",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

@@ -1,1 +1,16 @@
-{"name":"Charlatan","desc":"People call you a con artist, but you're really an entertainer. You make people happy—the separation of fools and villains from their money is purely a pleasant side effect.\n\nWhat is your most common con? Selling fake magic items? Speaking to ghosts? Posing as a long-lost relative? Or do you let dishonest people think they're cheating you?","slug":"charlatan","skill_proficiencies":"Deception, and either Culture, Insight, or Sleight of Hand.","tool_proficiencies":null,"languages":null,"equipment":"Common clothes, disguise kit, forgery kit.","feature":"Many Identities","feature_desc":"","suggested_characteristics":"### **Charlatan Mementos**\n\n1. A die that always comes up 6.\n2. A dozen brightly-colored “potions”.\n3. A magical staff that emits a harmless shower of sparks when vigorously thumped.\n4. A set of fine clothes suitable for nobility.\n5. A genuine document allowing its holder one free release from prison for a non-capital crime.\n6. A genuine deed to a valuable property that is, unfortunately, quite haunted.\n7. An ornate harlequin mask.\n8. Counterfeit gold coins or costume jewelry apparently worth 100 gold (DC 15Investigationcheck to notice they're fake).\n9. A sword that appears more magical than it really is (its blade is enchanted with *continual flame* and it is a mundane weapon).\n10. A nonmagical crystal ball.","document__slug":"a5e","document__title":"Level Up Advanced 5e","document__license_url":"http://open5e.com/legal","document__url":"https://a5esrd.com/a5esrd"}
+{
+    "name": "Charlatan",
+    "desc": "People call you a con artist, but you're really an entertainer. You make people happy—the separation of fools and villains from their money is purely a pleasant side effect.\n\nWhat is your most common con? Selling fake magic items? Speaking to ghosts? Posing as a long-lost relative? Or do you let dishonest people think they're cheating you?",
+    "slug": "charlatan",
+    "skill_proficiencies": "Deception, and either Culture, Insight, or Sleight of Hand.",
+    "tool_proficiencies": null,
+    "languages": null,
+    "equipment": "Common clothes, disguise kit, forgery kit.",
+    "feature": "Many Identities",
+    "feature_desc": "",
+    "suggested_characteristics": "### **Charlatan Mementos**\n\n1. A die that always comes up 6.\n2. A dozen brightly-colored “potions”.\n3. A magical staff that emits a harmless shower of sparks when vigorously thumped.\n4. A set of fine clothes suitable for nobility.\n5. A genuine document allowing its holder one free release from prison for a non-capital crime.\n6. A genuine deed to a valuable property that is, unfortunately, quite haunted.\n7. An ornate harlequin mask.\n8. Counterfeit gold coins or costume jewelry apparently worth 100 gold (DC 15Investigationcheck to notice they're fake).\n9. A sword that appears more magical than it really is (its blade is enchanted with *continual flame* and it is a mundane weapon).\n10. A nonmagical crystal ball.",
+    "document__slug": "a5e",
+    "document__title": "Level Up Advanced 5e",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://a5esrd.com/a5esrd"
+}

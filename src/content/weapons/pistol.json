@@ -1,1 +1,19 @@
-{"name":"Pistol","slug":"pistol","category":"Simple Ranged Weapons","document__slug":"toh","document__title":"Tome of Heroes","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/","cost":"25 gp","damage_dice":"1d6","damage_type":"piercing","weight":"5 lb.","properties":["ammunition (range 30/120)","gunpowder","light","loading"]}
+{
+    "name": "Pistol",
+    "slug": "pistol",
+    "category": "Simple Ranged Weapons",
+    "document__slug": "toh",
+    "document__title": "Tome of Heroes",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+    "cost": "25 gp",
+    "damage_dice": "1d6",
+    "damage_type": "piercing",
+    "weight": "5 lb.",
+    "properties": [
+        "ammunition (range 30/120)",
+        "gunpowder",
+        "light",
+        "loading"
+    ]
+}

@@ -1,1 +1,35 @@
-{"slug":"gremlins","name":"Gremlins","desc":"Deep Magic: clockwork You target a construct and summon a plague of invisible spirits to harass it. The target resists the spell and negates its effect with a successful Wisdom saving throw. While the spell remains in effect, the construct has disadvantage on attack rolls, ability checks, and saving throws, and it takes 3d8 force damage at the start of each of its turns as it is magically disassembled by the spirits.","higher_level":"When you cast this spell using a spell slot of 5th or higher, the damage increases by 1d8 for each slot above 4th.","page":"","range":"60 Feet","target_range_sort":60,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"","can_be_cast_as_ritual":false,"ritual":"no","duration":"1 Minute","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"4th-level","level_int":4,"spell_level":4,"school":"conjuration","dnd_class":"Wizard, Warlock, Sorceror","spell_lists":["warlock","wizard"],"archetype":"","circles":"","document__slug":"dmag-e","document__title":"Deep Magic Extended","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com"}
+{
+    "slug": "gremlins",
+    "name": "Gremlins",
+    "desc": "Deep Magic: clockwork You target a construct and summon a plague of invisible spirits to harass it. The target resists the spell and negates its effect with a successful Wisdom saving throw. While the spell remains in effect, the construct has disadvantage on attack rolls, ability checks, and saving throws, and it takes 3d8 force damage at the start of each of its turns as it is magically disassembled by the spirits.",
+    "higher_level": "When you cast this spell using a spell slot of 5th or higher, the damage increases by 1d8 for each slot above 4th.",
+    "page": "",
+    "range": "60 Feet",
+    "target_range_sort": 60,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "1 Minute",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "4th-level",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "conjuration",
+    "dnd_class": "Wizard, Warlock, Sorceror",
+    "spell_lists": [
+        "warlock",
+        "wizard"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "dmag-e",
+    "document__title": "Deep Magic Extended",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com"
+}

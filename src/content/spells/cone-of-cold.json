@@ -1,1 +1,36 @@
-{"slug":"cone-of-cold","name":"Cone of Cold","desc":"A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a constitution saving throw. A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one. A creature killed by this spell becomes a frozen statue until it thaws.","higher_level":"When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.","page":"phb 224","range":"Self","target_range_sort":0,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"A small crystal or glass cone.","can_be_cast_as_ritual":false,"ritual":"no","duration":"Instantaneous","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"5th-level","level_int":5,"spell_level":5,"school":"Evocation","dnd_class":"Druid, Sorcerer, Wizard","spell_lists":["sorcerer","wizard","druid"],"archetype":"Druid: Arctic","circles":"Arctic","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "cone-of-cold",
+    "name": "Cone of Cold",
+    "desc": "A blast of cold air erupts from your hands. Each creature in a 60-foot cone must make a constitution saving throw. A creature takes 8d8 cold damage on a failed save, or half as much damage on a successful one. A creature killed by this spell becomes a frozen statue until it thaws.",
+    "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the damage increases by 1d8 for each slot level above 5th.",
+    "page": "phb 224",
+    "range": "Self",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "A small crystal or glass cone.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "5th-level",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Evocation",
+    "dnd_class": "Druid, Sorcerer, Wizard",
+    "spell_lists": [
+        "sorcerer",
+        "wizard",
+        "druid"
+    ],
+    "archetype": "Druid: Arctic",
+    "circles": "Arctic",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

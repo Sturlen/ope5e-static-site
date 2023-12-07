@@ -1,1 +1,16 @@
-{"name":"Urchin","desc":"You grew up on the streets. You know where to hide and when your puppy dog eyes will earn you a hot meal.\n\nWhy were you on the streets? Were you a runaway? An orphan? Or just an adventurous kid who stayed out late?","slug":"urchin","skill_proficiencies":"Sleight of Hand, and either Deception or Stealth.","tool_proficiencies":null,"languages":null,"equipment":"Common clothes, disguise kit.","feature":"Guttersnipe","feature_desc":"","suggested_characteristics":"### **Urchin Mementos**\n\n1. A locket containing pictures of your parents.\n2. A set of (stolen?) fine clothes.\n3. A small trained animal, such as a mouse, parrot, or monkey.\n4. A map of the sewers.\n5. The key or signet ring that was around your neck when you were discovered as a foundling.\n6. A battered one-eyed doll.\n7. A portfolio of papers given to you by a fleeing, wounded courier.\n8. A gold tooth (not yours, and not in your mouth).\n9. The flowers or trinkets that you sell.\n10. A dangerous secret overheard while at play.","document__slug":"a5e","document__title":"Level Up Advanced 5e","document__license_url":"http://open5e.com/legal","document__url":"https://a5esrd.com/a5esrd"}
+{
+    "name": "Urchin",
+    "desc": "You grew up on the streets. You know where to hide and when your puppy dog eyes will earn you a hot meal.\n\nWhy were you on the streets? Were you a runaway? An orphan? Or just an adventurous kid who stayed out late?",
+    "slug": "urchin",
+    "skill_proficiencies": "Sleight of Hand, and either Deception or Stealth.",
+    "tool_proficiencies": null,
+    "languages": null,
+    "equipment": "Common clothes, disguise kit.",
+    "feature": "Guttersnipe",
+    "feature_desc": "",
+    "suggested_characteristics": "### **Urchin Mementos**\n\n1. A locket containing pictures of your parents.\n2. A set of (stolen?) fine clothes.\n3. A small trained animal, such as a mouse, parrot, or monkey.\n4. A map of the sewers.\n5. The key or signet ring that was around your neck when you were discovered as a foundling.\n6. A battered one-eyed doll.\n7. A portfolio of papers given to you by a fleeing, wounded courier.\n8. A gold tooth (not yours, and not in your mouth).\n9. The flowers or trinkets that you sell.\n10. A dangerous secret overheard while at play.",
+    "document__slug": "a5e",
+    "document__title": "Level Up Advanced 5e",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://a5esrd.com/a5esrd"
+}

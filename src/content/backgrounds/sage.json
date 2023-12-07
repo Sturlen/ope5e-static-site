@@ -1,1 +1,16 @@
-{"name":"Sage","desc":"You are a seeker of the world's truths and an expert in your chosen field, with esoteric knowledge at your fingertips, or at the farthest, in a book you vaguely remember.\n\nWhy have you left the confines of the library to explore the wider world? Do you seek ancient wisdom? Power? The answer to a specific question? Reinstatement in your former institution?","slug":"sage","skill_proficiencies":"History, and either Arcana, Culture, Engineering, or Religion.","tool_proficiencies":null,"languages":null,"equipment":"Bottle of ink, pen, 50 sheets of parchment, common clothes.","feature":"Library Privileges","feature_desc":"","suggested_characteristics":"### **Sage Mementos**\n\n1. A letter from a colleague asking for research help.\n2. Your incomplete manuscript.\n3. An ancient scroll in a language that no magic can decipher.\n4. A copy of your highly unorthodox theoretical work that got you in so much trouble.\n5. A list of the forbidden books that may answer your equally forbidden question.\n6. A formula for a legendary magic item for which you have no ingredients.\n7. An ancient manuscript of a famous literary work believed to have been lost; only you believe that it is genuine.\n8. Your mentor's incomplete bestiary, encyclopedia, or other work that you vowed to complete.\n9. Your prize possession: a magic quill pen that takes dictation.\n10. The name of a book you need for your research that seems to be missing from every library you've visited.","document__slug":"a5e","document__title":"Level Up Advanced 5e","document__license_url":"http://open5e.com/legal","document__url":"https://a5esrd.com/a5esrd"}
+{
+    "name": "Sage",
+    "desc": "You are a seeker of the world's truths and an expert in your chosen field, with esoteric knowledge at your fingertips, or at the farthest, in a book you vaguely remember.\n\nWhy have you left the confines of the library to explore the wider world? Do you seek ancient wisdom? Power? The answer to a specific question? Reinstatement in your former institution?",
+    "slug": "sage",
+    "skill_proficiencies": "History, and either Arcana, Culture, Engineering, or Religion.",
+    "tool_proficiencies": null,
+    "languages": null,
+    "equipment": "Bottle of ink, pen, 50 sheets of parchment, common clothes.",
+    "feature": "Library Privileges",
+    "feature_desc": "",
+    "suggested_characteristics": "### **Sage Mementos**\n\n1. A letter from a colleague asking for research help.\n2. Your incomplete manuscript.\n3. An ancient scroll in a language that no magic can decipher.\n4. A copy of your highly unorthodox theoretical work that got you in so much trouble.\n5. A list of the forbidden books that may answer your equally forbidden question.\n6. A formula for a legendary magic item for which you have no ingredients.\n7. An ancient manuscript of a famous literary work believed to have been lost; only you believe that it is genuine.\n8. Your mentor's incomplete bestiary, encyclopedia, or other work that you vowed to complete.\n9. Your prize possession: a magic quill pen that takes dictation.\n10. The name of a book you need for your research that seems to be missing from every library you've visited.",
+    "document__slug": "a5e",
+    "document__title": "Level Up Advanced 5e",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://a5esrd.com/a5esrd"
+}

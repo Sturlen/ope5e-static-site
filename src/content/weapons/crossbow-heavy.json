@@ -1,1 +1,19 @@
-{"name":"Crossbow, heavy","slug":"crossbow-heavy","category":"Martial Ranged Weapons","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd","cost":"50 gp","damage_dice":"1d10","damage_type":"piercing","weight":"18 lb.","properties":["ammunition (range 100/400)","heavy","loading","two-handed"]}
+{
+    "name": "Crossbow, heavy",
+    "slug": "crossbow-heavy",
+    "category": "Martial Ranged Weapons",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+    "cost": "50 gp",
+    "damage_dice": "1d10",
+    "damage_type": "piercing",
+    "weight": "18 lb.",
+    "properties": [
+        "ammunition (range 100/400)",
+        "heavy",
+        "loading",
+        "two-handed"
+    ]
+}

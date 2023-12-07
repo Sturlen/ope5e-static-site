@@ -1,1 +1,37 @@
-{"slug":"hallucinatory-terrain","name":"Hallucinatory Terrain","desc":"You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed in appearance.\n\nThe tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.","higher_level":"","page":"phb 249","range":"300 feet","target_range_sort":300,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"A stone, a twig, and a bit of green plant.","can_be_cast_as_ritual":false,"ritual":"no","duration":"24 hours","concentration":"no","requires_concentration":false,"casting_time":"10 minutes","level":"4th-level","level_int":4,"spell_level":4,"school":"Illusion","dnd_class":"Bard, Druid, Warlock, Wizard","spell_lists":["bard","warlock","wizard","druid"],"archetype":"","circles":"Desert","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "hallucinatory-terrain",
+    "name": "Hallucinatory Terrain",
+    "desc": "You make natural terrain in a 150-foot cube in range look, sound, and smell like some other sort of natural terrain. Thus, open fields or a road can be made to resemble a swamp, hill, crevasse, or some other difficult or impassable terrain. A pond can be made to seem like a grassy meadow, a precipice like a gentle slope, or a rock-strewn gully like a wide and smooth road. Manufactured structures, equipment, and creatures within the area aren't changed in appearance.\n\nThe tactile characteristics of the terrain are unchanged, so creatures entering the area are likely to see through the illusion. If the difference isn't obvious by touch, a creature carefully examining the illusion can attempt an Intelligence (Investigation) check against your spell save DC to disbelieve it. A creature who discerns the illusion for what it is, sees it as a vague image superimposed on the terrain.",
+    "higher_level": "",
+    "page": "phb 249",
+    "range": "300 feet",
+    "target_range_sort": 300,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "A stone, a twig, and a bit of green plant.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "24 hours",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "10 minutes",
+    "level": "4th-level",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Illusion",
+    "dnd_class": "Bard, Druid, Warlock, Wizard",
+    "spell_lists": [
+        "bard",
+        "warlock",
+        "wizard",
+        "druid"
+    ],
+    "archetype": "",
+    "circles": "Desert",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

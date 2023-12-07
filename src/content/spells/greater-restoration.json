@@ -1,1 +1,36 @@
-{"slug":"greater-restoration","name":"Greater Restoration","desc":"You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target: \n- One effect that charmed or petrified the target \n- One curse, including the target's attunement to a cursed magic item \n- Any reduction to one of the target's ability scores \n- One effect reducing the target's hit point maximum","higher_level":"","page":"phb 246","range":"Touch","target_range_sort":1,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"Diamond dust worth at least 100gp, which the spell consumes.","can_be_cast_as_ritual":false,"ritual":"no","duration":"Instantaneous","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"5th-level","level_int":5,"spell_level":5,"school":"Abjuration","dnd_class":"Bard, Cleric, Druid","spell_lists":["bard","cleric","druid"],"archetype":"","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "greater-restoration",
+    "name": "Greater Restoration",
+    "desc": "You imbue a creature you touch with positive energy to undo a debilitating effect. You can reduce the target's exhaustion level by one, or end one of the following effects on the target: \n- One effect that charmed or petrified the target \n- One curse, including the target's attunement to a cursed magic item \n- Any reduction to one of the target's ability scores \n- One effect reducing the target's hit point maximum",
+    "higher_level": "",
+    "page": "phb 246",
+    "range": "Touch",
+    "target_range_sort": 1,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "Diamond dust worth at least 100gp, which the spell consumes.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "5th-level",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Abjuration",
+    "dnd_class": "Bard, Cleric, Druid",
+    "spell_lists": [
+        "bard",
+        "cleric",
+        "druid"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

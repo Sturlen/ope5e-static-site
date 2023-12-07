@@ -1,1 +1,18 @@
-{"name":"Barge Pole","slug":"barge-pole","category":"Simple Melee Weapons","document__slug":"toh","document__title":"Tome of Heroes","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/","cost":"1 sp","damage_dice":"1d6","damage_type":"bludgeoning","weight":"5 lb.","properties":["reach","special","two-handed"]}
+{
+    "name": "Barge Pole",
+    "slug": "barge-pole",
+    "category": "Simple Melee Weapons",
+    "document__slug": "toh",
+    "document__title": "Tome of Heroes",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+    "cost": "1 sp",
+    "damage_dice": "1d6",
+    "damage_type": "bludgeoning",
+    "weight": "5 lb.",
+    "properties": [
+        "reach",
+        "special",
+        "two-handed"
+    ]
+}

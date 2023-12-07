@@ -1,1 +1,35 @@
-{"slug":"creation","name":"Creation","desc":"You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within 'range': soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before. The duration depends on the object's material. If the object is composed of multiple materials, use the shortest duration\n\n **Vegetable matter** 1 day **Stone or crystal** 12 hours **Precious metals** 1 hour **Gems** 10 minutes **Adamantine or mithral** 1 minute Using any material created by this spell as another spell's material component causes that spell to fail.","higher_level":"When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th.","page":"phb 229","range":"30 feet","target_range_sort":30,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"A tiny piece of matter of the same type of the item you plan to create.","can_be_cast_as_ritual":false,"ritual":"no","duration":"Special","concentration":"no","requires_concentration":false,"casting_time":"1 minute","level":"5th-level","level_int":5,"spell_level":5,"school":"Illusion","dnd_class":"Sorcerer, Wizard","spell_lists":["sorcerer","wizard"],"archetype":"","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "creation",
+    "name": "Creation",
+    "desc": "You pull wisps of shadow material from the Shadowfell to create a nonliving object of vegetable matter within 'range': soft goods, rope, wood, or something similar. You can also use this spell to create mineral objects such as stone, crystal, or metal. The object created must be no larger than a 5-foot cube, and the object must be of a form and material that you have seen before. The duration depends on the object's material. If the object is composed of multiple materials, use the shortest duration\n\n **Vegetable matter** 1 day **Stone or crystal** 12 hours **Precious metals** 1 hour **Gems** 10 minutes **Adamantine or mithral** 1 minute Using any material created by this spell as another spell's material component causes that spell to fail.",
+    "higher_level": "When you cast this spell using a spell slot of 6th level or higher, the cube increases by 5 feet for each slot level above 5th.",
+    "page": "phb 229",
+    "range": "30 feet",
+    "target_range_sort": 30,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "A tiny piece of matter of the same type of the item you plan to create.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Special",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 minute",
+    "level": "5th-level",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "Illusion",
+    "dnd_class": "Sorcerer, Wizard",
+    "spell_lists": [
+        "sorcerer",
+        "wizard"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

@@ -1,1 +1,16 @@
-{"name":"Greatclub","slug":"greatclub","category":"Simple Melee Weapons","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd","cost":"2 sp","damage_dice":"1d8","damage_type":"bludgeoning","weight":"10 lb.","properties":["two-handed"]}
+{
+    "name": "Greatclub",
+    "slug": "greatclub",
+    "category": "Simple Melee Weapons",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+    "cost": "2 sp",
+    "damage_dice": "1d8",
+    "damage_type": "bludgeoning",
+    "weight": "10 lb.",
+    "properties": [
+        "two-handed"
+    ]
+}

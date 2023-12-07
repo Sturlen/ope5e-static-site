@@ -1,1 +1,34 @@
-{"slug":"mechanical-union","name":"Mechanical Union","desc":"Deep Magic: clockwork You can take control of a construct by voice or mental commands. The construct makes a Wisdom saving throw to resist the spell, and it gets advantage on the saving throw if its CR equals or exceeds your level in the class used to cast this spell. Once a command is given, the construct does everything it can to complete the command. Giving a new command takes an action. Constructs will risk harm, even go into combat, on your orders but will not self-destruct; giving such an order ends the spell.","higher_level":"","page":"","range":"60 Feet","target_range_sort":60,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"","can_be_cast_as_ritual":false,"ritual":"no","duration":"1 Hour","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"5th-level","level_int":5,"spell_level":5,"school":"transmutation","dnd_class":"Wizard, Sorceror","spell_lists":["wizard"],"archetype":"","circles":"","document__slug":"dmag-e","document__title":"Deep Magic Extended","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com"}
+{
+    "slug": "mechanical-union",
+    "name": "Mechanical Union",
+    "desc": "Deep Magic: clockwork You can take control of a construct by voice or mental commands. The construct makes a Wisdom saving throw to resist the spell, and it gets advantage on the saving throw if its CR equals or exceeds your level in the class used to cast this spell. Once a command is given, the construct does everything it can to complete the command. Giving a new command takes an action. Constructs will risk harm, even go into combat, on your orders but will not self-destruct; giving such an order ends the spell.",
+    "higher_level": "",
+    "page": "",
+    "range": "60 Feet",
+    "target_range_sort": 60,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "1 Hour",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "5th-level",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "transmutation",
+    "dnd_class": "Wizard, Sorceror",
+    "spell_lists": [
+        "wizard"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "dmag-e",
+    "document__title": "Deep Magic Extended",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com"
+}

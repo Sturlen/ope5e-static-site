@@ -1,1 +1,20 @@
-{"name":"Brigandine","slug":"brigandine","category":"Light Armor","document__slug":"toh","document__title":"Tome of Heroes","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/","base_ac":13,"plus_dex_mod":true,"plus_con_mod":false,"plus_wis_mod":false,"plus_flat_mod":0,"plus_max":0,"ac_string":"13 + Dex modifier","strength_requirement":0,"cost":"50 gp","weight":"","stealth_disadvantage":true}
+{
+    "name": "Brigandine",
+    "slug": "brigandine",
+    "category": "Light Armor",
+    "document__slug": "toh",
+    "document__title": "Tome of Heroes",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+    "base_ac": 13,
+    "plus_dex_mod": true,
+    "plus_con_mod": false,
+    "plus_wis_mod": false,
+    "plus_flat_mod": 0,
+    "plus_max": 0,
+    "ac_string": "13 + Dex modifier",
+    "strength_requirement": 0,
+    "cost": "50 gp",
+    "weight": "",
+    "stealth_disadvantage": true
+}

@@ -1,1 +1,18 @@
-{"name":"Light Pick","slug":"light-pick","category":"Simple Melee Weapons","document__slug":"toh","document__title":"Tome of Heroes","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/","cost":"3 gp","damage_dice":"1d4","damage_type":"piercing","weight":"2 lb.","properties":["light","thrown (20/60)",""]}
+{
+    "name": "Light Pick",
+    "slug": "light-pick",
+    "category": "Simple Melee Weapons",
+    "document__slug": "toh",
+    "document__title": "Tome of Heroes",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+    "cost": "3 gp",
+    "damage_dice": "1d4",
+    "damage_type": "piercing",
+    "weight": "2 lb.",
+    "properties": [
+        "light",
+        "thrown (20/60)",
+        ""
+    ]
+}

@@ -1,1 +1,34 @@
-{"slug":"harm","name":"Harm","desc":"You unleash a virulent disease on a creature that you can see within range. The target must make a constitution saving throw. On a failed save, it takes 14d6 necrotic damage, or half as much damage on a successful save. The damage can't reduce the target's hit points below 1. If the target fails the saving throw, its hit point maximum is reduced for 1 hour by an amount equal to the necrotic damage it took. Any effect that removes a disease allows a creature's hit point maximum to return to normal before that time passes.","higher_level":"","page":"phb 249","range":"60 feet","target_range_sort":60,"components":"V, S","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":false,"material":"","can_be_cast_as_ritual":false,"ritual":"no","duration":"Instantaneous","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"6th-level","level_int":6,"spell_level":6,"school":"Necromancy","dnd_class":"Cleric","spell_lists":["cleric"],"archetype":"","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "harm",
+    "name": "Harm",
+    "desc": "You unleash a virulent disease on a creature that you can see within range. The target must make a constitution saving throw. On a failed save, it takes 14d6 necrotic damage, or half as much damage on a successful save. The damage can't reduce the target's hit points below 1. If the target fails the saving throw, its hit point maximum is reduced for 1 hour by an amount equal to the necrotic damage it took. Any effect that removes a disease allows a creature's hit point maximum to return to normal before that time passes.",
+    "higher_level": "",
+    "page": "phb 249",
+    "range": "60 feet",
+    "target_range_sort": 60,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "6th-level",
+    "level_int": 6,
+    "spell_level": 6,
+    "school": "Necromancy",
+    "dnd_class": "Cleric",
+    "spell_lists": [
+        "cleric"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

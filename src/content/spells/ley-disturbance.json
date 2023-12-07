@@ -1,1 +1,34 @@
-{"slug":"ley-disturbance","name":"Ley Disturbance","desc":"Deep Magic: forest-bound While in your bound forest, you tune your senses to any disturbances of ley energy flowing through it. For the duration, you are aware of any ley line manipulation or ley spell casting within 5 miles of you. You know the approximate distance and general direction to each disturbance within that range, but you don't know its exact location. This doesn't allow you to locate the ley lines themselves, just any use or modification of them.","higher_level":"","page":"","range":"Self","target_range_sort":0,"components":"V, S","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":false,"material":"","can_be_cast_as_ritual":false,"ritual":"no","duration":"1 Hour","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"3rd-level","level_int":3,"spell_level":3,"school":"divination","dnd_class":"Druid","spell_lists":["druid"],"archetype":"","circles":"","document__slug":"kp","document__title":"Kobold Press Compilation","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com"}
+{
+    "slug": "ley-disturbance",
+    "name": "Ley Disturbance",
+    "desc": "Deep Magic: forest-bound While in your bound forest, you tune your senses to any disturbances of ley energy flowing through it. For the duration, you are aware of any ley line manipulation or ley spell casting within 5 miles of you. You know the approximate distance and general direction to each disturbance within that range, but you don't know its exact location. This doesn't allow you to locate the ley lines themselves, just any use or modification of them.",
+    "higher_level": "",
+    "page": "",
+    "range": "Self",
+    "target_range_sort": 0,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "1 Hour",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "3rd-level",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "divination",
+    "dnd_class": "Druid",
+    "spell_lists": [
+        "druid"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "kp",
+    "document__title": "Kobold Press Compilation",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com"
+}

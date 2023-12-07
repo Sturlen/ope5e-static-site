@@ -1,1 +1,16 @@
-{"name":"Rapier","slug":"rapier","category":"Martial Melee Weapons","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd","cost":"25 gp","damage_dice":"1d8","damage_type":"piercing","weight":"2 lb.","properties":["finesse"]}
+{
+    "name": "Rapier",
+    "slug": "rapier",
+    "category": "Martial Melee Weapons",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+    "cost": "25 gp",
+    "damage_dice": "1d8",
+    "damage_type": "piercing",
+    "weight": "2 lb.",
+    "properties": [
+        "finesse"
+    ]
+}

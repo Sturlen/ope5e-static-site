@@ -1,1 +1,36 @@
-{"slug":"armored-heart","name":"Armored Heart","desc":"Deep Magic: clockwork The targeted creature gains resistance to bludgeoning, slashing, and piercing damage. This resistance can be overcome with adamantine or magical weapons.","higher_level":"","page":"","range":"Touch","target_range_sort":1,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"","can_be_cast_as_ritual":false,"ritual":"no","duration":"1 Round","concentration":"no","requires_concentration":false,"casting_time":"1 bonus action","level":"1st-level","level_int":1,"spell_level":1,"school":"conjuration","dnd_class":"Wizard, Warlock, Sorceror, Bard","spell_lists":["bard","warlock","wizard"],"archetype":"","circles":"","document__slug":"dmag-e","document__title":"Deep Magic Extended","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com"}
+{
+    "slug": "armored-heart",
+    "name": "Armored Heart",
+    "desc": "Deep Magic: clockwork The targeted creature gains resistance to bludgeoning, slashing, and piercing damage. This resistance can be overcome with adamantine or magical weapons.",
+    "higher_level": "",
+    "page": "",
+    "range": "Touch",
+    "target_range_sort": 1,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "1 Round",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 bonus action",
+    "level": "1st-level",
+    "level_int": 1,
+    "spell_level": 1,
+    "school": "conjuration",
+    "dnd_class": "Wizard, Warlock, Sorceror, Bard",
+    "spell_lists": [
+        "bard",
+        "warlock",
+        "wizard"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "dmag-e",
+    "document__title": "Deep Magic Extended",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com"
+}

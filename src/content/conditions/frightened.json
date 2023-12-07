@@ -1,1 +1,8 @@
-{"slug":"frightened","name":"Frightened","desc":"* A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n* The creature can't willingly move closer to the source of its fear.","document__slug":"wotc-srd","document__title":"5e Core Rules","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "frightened",
+    "name": "Frightened",
+    "desc": "* A frightened creature has disadvantage on ability checks and attack rolls while the source of its fear is within line of sight.\n* The creature can't willingly move closer to the source of its fear.",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

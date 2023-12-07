@@ -1,1 +1,35 @@
-{"slug":"arcane-sword","name":"Arcane Sword","desc":"You create a sword-shaped plane of force that hovers within range. It lasts for the duration. When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.","higher_level":"","page":"phb 262","range":"60 feet","target_range_sort":60,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"A miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp.","can_be_cast_as_ritual":false,"ritual":"no","duration":"Up to 1 minute","concentration":"yes","requires_concentration":true,"casting_time":"1 action","level":"7th-level","level_int":7,"spell_level":7,"school":"Evocation","dnd_class":"Bard, Wizard","spell_lists":["bard","wizard"],"archetype":"","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "arcane-sword",
+    "name": "Arcane Sword",
+    "desc": "You create a sword-shaped plane of force that hovers within range. It lasts for the duration. When the sword appears, you make a melee spell attack against a target of your choice within 5 feet of the sword. On a hit, the target takes 3d10 force damage. Until the spell ends, you can use a bonus action on each of your turns to move the sword up to 20 feet to a spot you can see and repeat this attack against the same target or a different one.",
+    "higher_level": "",
+    "page": "phb 262",
+    "range": "60 feet",
+    "target_range_sort": 60,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "A miniature platinum sword with a grip and pommel of copper and zinc, worth 250 gp.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Up to 1 minute",
+    "concentration": "yes",
+    "requires_concentration": true,
+    "casting_time": "1 action",
+    "level": "7th-level",
+    "level_int": 7,
+    "spell_level": 7,
+    "school": "Evocation",
+    "dnd_class": "Bard, Wizard",
+    "spell_lists": [
+        "bard",
+        "wizard"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

@@ -1,1 +1,16 @@
-{"name":"Trader","desc":"You served your apprenticeship among merchants and traders. You've traveled dusty miles and haggled under distant skies.\n\nWhy are you living a life of adventure? Are you working off your debt to the company store? Are you escorting a caravan through dangerous wilds?\n\nAre you raising capital to start your own business, or trying to restore the fortunes of a ruined trading family? Or are you a smuggler, following secret trade routes unknown to the authorities?","slug":"trader","skill_proficiencies":"Persuasion, and either Culture, Deception, or Insight.","tool_proficiencies":null,"languages":null,"equipment":"Traveler's clothes, abacus, merchant's scale.","feature":"Supply and Demand","feature_desc":"","suggested_characteristics":"### **Trader Mementos**\n\n1. The first gold piece you earned.\n2. Thousands of shares in a failed venture.\n3. A letter of introduction to a rich merchant in a distant city.\n4. A sample of an improved version of a common tool.\n5. Scars from a wound sustained when you tried to collect a debt from a vicious noble.\n6. A love letter from the heir of a rival trading family.\n7. A signet ring bearing your family crest, which is famous in the mercantile world.\n8. A contract binding you to a particular trading company for the next few years.\n9. A letter from a friend imploring you to invest in an opportunity that can't miss.\n10. A trusted family member's travel journals that mix useful geographical knowledge with tall tales.","document__slug":"a5e","document__title":"Level Up Advanced 5e","document__license_url":"http://open5e.com/legal","document__url":"https://a5esrd.com/a5esrd"}
+{
+    "name": "Trader",
+    "desc": "You served your apprenticeship among merchants and traders. You've traveled dusty miles and haggled under distant skies.\n\nWhy are you living a life of adventure? Are you working off your debt to the company store? Are you escorting a caravan through dangerous wilds?\n\nAre you raising capital to start your own business, or trying to restore the fortunes of a ruined trading family? Or are you a smuggler, following secret trade routes unknown to the authorities?",
+    "slug": "trader",
+    "skill_proficiencies": "Persuasion, and either Culture, Deception, or Insight.",
+    "tool_proficiencies": null,
+    "languages": null,
+    "equipment": "Traveler's clothes, abacus, merchant's scale.",
+    "feature": "Supply and Demand",
+    "feature_desc": "",
+    "suggested_characteristics": "### **Trader Mementos**\n\n1. The first gold piece you earned.\n2. Thousands of shares in a failed venture.\n3. A letter of introduction to a rich merchant in a distant city.\n4. A sample of an improved version of a common tool.\n5. Scars from a wound sustained when you tried to collect a debt from a vicious noble.\n6. A love letter from the heir of a rival trading family.\n7. A signet ring bearing your family crest, which is famous in the mercantile world.\n8. A contract binding you to a particular trading company for the next few years.\n9. A letter from a friend imploring you to invest in an opportunity that can't miss.\n10. A trusted family member's travel journals that mix useful geographical knowledge with tall tales.",
+    "document__slug": "a5e",
+    "document__title": "Level Up Advanced 5e",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://a5esrd.com/a5esrd"
+}

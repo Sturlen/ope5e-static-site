@@ -1,1 +1,35 @@
-{"slug":"arcane-eye","name":"Arcane Eye","desc":"You create an invisible, magical eye within range that hovers in the air for the duration. You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction. As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.","higher_level":"","page":"phb 214","range":"30 feet","target_range_sort":30,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"A bit of bat fur.","can_be_cast_as_ritual":false,"ritual":"no","duration":"Up to 1 hour","concentration":"yes","requires_concentration":true,"casting_time":"1 action","level":"4th-level","level_int":4,"spell_level":4,"school":"Divination","dnd_class":"Cleric, Wizard","spell_lists":["wizard","cleric"],"archetype":"Cleric: Knowledge","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "arcane-eye",
+    "name": "Arcane Eye",
+    "desc": "You create an invisible, magical eye within range that hovers in the air for the duration. You mentally receive visual information from the eye, which has normal vision and darkvision out to 30 feet. The eye can look in every direction. As an action, you can move the eye up to 30 feet in any direction. There is no limit to how far away from you the eye can move, but it can't enter another plane of existence. A solid barrier blocks the eye's movement, but the eye can pass through an opening as small as 1 inch in diameter.",
+    "higher_level": "",
+    "page": "phb 214",
+    "range": "30 feet",
+    "target_range_sort": 30,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "A bit of bat fur.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Up to 1 hour",
+    "concentration": "yes",
+    "requires_concentration": true,
+    "casting_time": "1 action",
+    "level": "4th-level",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Divination",
+    "dnd_class": "Cleric, Wizard",
+    "spell_lists": [
+        "wizard",
+        "cleric"
+    ],
+    "archetype": "Cleric: Knowledge",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

@@ -1,1 +1,20 @@
-{"name":"Manica","slug":"manica","category":"Shield","document__slug":"toh","document__title":"Tome of Heroes","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/","base_ac":11,"plus_dex_mod":true,"plus_con_mod":false,"plus_wis_mod":false,"plus_flat_mod":1,"plus_max":0,"ac_string":"11 + Dex modifier +1","strength_requirement":0,"cost":"6 gp","weight":"","stealth_disadvantage":false}
+{
+    "name": "Manica",
+    "slug": "manica",
+    "category": "Shield",
+    "document__slug": "toh",
+    "document__title": "Tome of Heroes",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+    "base_ac": 11,
+    "plus_dex_mod": true,
+    "plus_con_mod": false,
+    "plus_wis_mod": false,
+    "plus_flat_mod": 1,
+    "plus_max": 0,
+    "ac_string": "11 + Dex modifier +1",
+    "strength_requirement": 0,
+    "cost": "6 gp",
+    "weight": "",
+    "stealth_disadvantage": false
+}

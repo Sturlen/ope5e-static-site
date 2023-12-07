@@ -1,1 +1,20 @@
-{"name":"Unarmored Defense (Barbarian)","slug":"unarmored-defense-barbarian","category":"Class Feature","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd","base_ac":10,"plus_dex_mod":true,"plus_con_mod":true,"plus_wis_mod":false,"plus_flat_mod":0,"plus_max":0,"ac_string":"10 + Dex modifier + Con modifier","strength_requirement":null,"cost":"0 gp","weight":"","stealth_disadvantage":false}
+{
+    "name": "Unarmored Defense (Barbarian)",
+    "slug": "unarmored-defense-barbarian",
+    "category": "Class Feature",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+    "base_ac": 10,
+    "plus_dex_mod": true,
+    "plus_con_mod": true,
+    "plus_wis_mod": false,
+    "plus_flat_mod": 0,
+    "plus_max": 0,
+    "ac_string": "10 + Dex modifier + Con modifier",
+    "strength_requirement": null,
+    "cost": "0 gp",
+    "weight": "",
+    "stealth_disadvantage": false
+}

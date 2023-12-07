@@ -1,1 +1,13 @@
-{"title":"Deep Magic Extended","slug":"dmag-e","url":"https://koboldpress.com","license":"Open Gaming License","desc":"Kobold Press Community Use Policy","author":"Various","organization":"Kobold Press™","version":"1.0","created_at":"2023-11-05T00:01:41.120000","copyright":"© Open Design LLC","license_url":"http://open5e.com/legal"}
+{
+    "title": "Deep Magic Extended",
+    "slug": "dmag-e",
+    "url": "https://koboldpress.com",
+    "license": "Open Gaming License",
+    "desc": "Kobold Press Community Use Policy",
+    "author": "Various",
+    "organization": "Kobold Press™",
+    "version": "1.0",
+    "created_at": "2023-11-05T00:01:41.120000",
+    "copyright": "© Open Design LLC",
+    "license_url": "http://open5e.com/legal"
+}

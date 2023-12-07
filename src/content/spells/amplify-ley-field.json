@@ -1,1 +1,36 @@
-{"slug":"amplify-ley-field","name":"Amplify Ley Field","desc":"You create a faintly shimmering field of charged energy around yourself. Within that area, the intensity of ley lines you're able to draw on increases from weak to strong, or from strong to titanic. If no ley lines are near enough for you to draw on, you can treat the area of the spell itself as an unlocked, weak ley line.","higher_level":"","page":"","range":"Self","target_range_sort":0,"components":"V, S","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":false,"material":"","can_be_cast_as_ritual":false,"ritual":"no","duration":"10 Minutes","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"5th-level","level_int":5,"spell_level":5,"school":"evocation","dnd_class":"Sorceror, Warlock, Wizard, Druid","spell_lists":["warlock","wizard","druid"],"archetype":"","circles":"","document__slug":"dmag-e","document__title":"Deep Magic Extended","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com"}
+{
+    "slug": "amplify-ley-field",
+    "name": "Amplify Ley Field",
+    "desc": "You create a faintly shimmering field of charged energy around yourself. Within that area, the intensity of ley lines you're able to draw on increases from weak to strong, or from strong to titanic. If no ley lines are near enough for you to draw on, you can treat the area of the spell itself as an unlocked, weak ley line.",
+    "higher_level": "",
+    "page": "",
+    "range": "Self",
+    "target_range_sort": 0,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "10 Minutes",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "5th-level",
+    "level_int": 5,
+    "spell_level": 5,
+    "school": "evocation",
+    "dnd_class": "Sorceror, Warlock, Wizard, Druid",
+    "spell_lists": [
+        "warlock",
+        "wizard",
+        "druid"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "dmag-e",
+    "document__title": "Deep Magic Extended",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com"
+}

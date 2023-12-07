@@ -1,1 +1,18 @@
-{"name":"Dagger","slug":"dagger","category":"Simple Melee Weapons","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd","cost":"2 gp","damage_dice":"1d4","damage_type":"piercing","weight":"1 lb.","properties":["finesse","light","thrown (range 20/60)"]}
+{
+    "name": "Dagger",
+    "slug": "dagger",
+    "category": "Simple Melee Weapons",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+    "cost": "2 gp",
+    "damage_dice": "1d4",
+    "damage_type": "piercing",
+    "weight": "1 lb.",
+    "properties": [
+        "finesse",
+        "light",
+        "thrown (range 20/60)"
+    ]
+}

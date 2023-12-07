@@ -1,1 +1,13 @@
-{"title":"5e Core Rules","slug":"wotc-srd","url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd","license":"Open Gaming License","desc":"Dungeons and Dragons 5th Edition Systems Reference Document by Wizards of the Coast","author":"Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.","organization":"Wizards of the Coast™","version":"5.1","created_at":"2023-11-05T00:01:38.209000","copyright":"System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.","license_url":"http://open5e.com/legal"}
+{
+    "title": "5e Core Rules",
+    "slug": "wotc-srd",
+    "url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+    "license": "Open Gaming License",
+    "desc": "Dungeons and Dragons 5th Edition Systems Reference Document by Wizards of the Coast",
+    "author": "Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+    "organization": "Wizards of the Coast™",
+    "version": "5.1",
+    "created_at": "2023-11-05T00:01:38.209000",
+    "copyright": "System Reference Document 5.1 Copyright 2016, Wizards of the Coast, Inc.; Authors Mike Mearls, Jeremy Crawford, Chris Perkins, Rodney Thompson, Peter Lee, James Wyatt, Robert J. Schwalb, Bruce R. Cordell, Chris Sims, and Steve Townshend, based on original material by E. Gary Gygax and Dave Arneson.",
+    "license_url": "http://open5e.com/legal"
+}

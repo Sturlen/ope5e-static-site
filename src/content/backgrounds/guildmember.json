@@ -1,1 +1,16 @@
-{"name":"Guildmember","desc":"It never hurts to be part of a team, and when you're part of a guild opportunities knock at your door.\n\nAre you a member of a trade or artisan's guild? Or an order of mages or monster hunters? Or have you found entry into a secretive guild of thieves or assassins?","slug":"guildmember","skill_proficiencies":"Two of your choice.","tool_proficiencies":null,"languages":null,"equipment":"One set of artisan's tools or one instrument, traveler's clothes, guild badge.","feature":"Guild Business","feature_desc":"","suggested_characteristics":"### **Guildmember Mementos**\n\n1. *Artisans Guild:* An incomplete masterpiece which your mentor never finished.\n2. *Entertainers Guild:* An incomplete masterpiece which your mentor never finished.\n3. *Explorers Guild:* A roll of incomplete maps each with a reward for completion.\n4. *Laborers Guild:* A badge entitling you to a free round of drinks at most inns and taverns.\n5. *Adventurers Guild:* A request from a circus to obtain live exotic animals.\n6. *Bounty Hunters Guild:* A set of manacles and a bounty on a fugitive who has already eluded you once.\n7. *Mages Guild:* The name of a wizard who has created a rare version of a spell that the guild covets.\n8. *Monster Hunters Guild:* A bounty, with no time limit, on a monster far beyond your capability.\n9. *Archaeologists Guild:* A map marking the entrance of a distant dungeon.\n10. *Thieves Guild:* Blueprints of a bank, casino, mint, or other rich locale.","document__slug":"a5e","document__title":"Level Up Advanced 5e","document__license_url":"http://open5e.com/legal","document__url":"https://a5esrd.com/a5esrd"}
+{
+    "name": "Guildmember",
+    "desc": "It never hurts to be part of a team, and when you're part of a guild opportunities knock at your door.\n\nAre you a member of a trade or artisan's guild? Or an order of mages or monster hunters? Or have you found entry into a secretive guild of thieves or assassins?",
+    "slug": "guildmember",
+    "skill_proficiencies": "Two of your choice.",
+    "tool_proficiencies": null,
+    "languages": null,
+    "equipment": "One set of artisan's tools or one instrument, traveler's clothes, guild badge.",
+    "feature": "Guild Business",
+    "feature_desc": "",
+    "suggested_characteristics": "### **Guildmember Mementos**\n\n1. *Artisans Guild:* An incomplete masterpiece which your mentor never finished.\n2. *Entertainers Guild:* An incomplete masterpiece which your mentor never finished.\n3. *Explorers Guild:* A roll of incomplete maps each with a reward for completion.\n4. *Laborers Guild:* A badge entitling you to a free round of drinks at most inns and taverns.\n5. *Adventurers Guild:* A request from a circus to obtain live exotic animals.\n6. *Bounty Hunters Guild:* A set of manacles and a bounty on a fugitive who has already eluded you once.\n7. *Mages Guild:* The name of a wizard who has created a rare version of a spell that the guild covets.\n8. *Monster Hunters Guild:* A bounty, with no time limit, on a monster far beyond your capability.\n9. *Archaeologists Guild:* A map marking the entrance of a distant dungeon.\n10. *Thieves Guild:* Blueprints of a bank, casino, mint, or other rich locale.",
+    "document__slug": "a5e",
+    "document__title": "Level Up Advanced 5e",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://a5esrd.com/a5esrd"
+}

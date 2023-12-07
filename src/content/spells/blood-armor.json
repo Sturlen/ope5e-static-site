@@ -1,1 +1,36 @@
-{"slug":"blood-armor","name":"Blood Armor","desc":"When you strike a foe with a melee weapon attack, you can immediately cast **blood armor** as a bonus action. The foe you struck must contain blood; if the target doesn’t bleed, the spell ends without effect. The blood flowing from your foe magically increases in volume and forms a suit of armor around you, granting you an Armor Class of 18 + your Dexterity modifier for the spell’s duration. This armor has no Strength requirement, doesn’t hinder spellcasting, and doesn’t incur disadvantage on Dexterity (Stealth) checks.\n\nIf the creature you struck was a celestial, **blood armor** also grants you advantage on Charisma saving throws for the duration of the spell.","higher_level":"","page":"","range":"Self","target_range_sort":0,"components":"V, S","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":false,"material":"you must have just struck a foe with a melee weapon","can_be_cast_as_ritual":false,"ritual":"no","duration":"1 hour","concentration":"no","requires_concentration":false,"casting_time":"1 bonus action","level":"3rd-level","level_int":3,"spell_level":3,"school":"necromancy","dnd_class":"Sorcerer, Warlock, Wizard","spell_lists":["sorcerer","warlock","wizard"],"archetype":"","circles":"","document__slug":"dmag","document__title":"Deep Magic 5e","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/"}
+{
+    "slug": "blood-armor",
+    "name": "Blood Armor",
+    "desc": "When you strike a foe with a melee weapon attack, you can immediately cast **blood armor** as a bonus action. The foe you struck must contain blood; if the target doesn’t bleed, the spell ends without effect. The blood flowing from your foe magically increases in volume and forms a suit of armor around you, granting you an Armor Class of 18 + your Dexterity modifier for the spell’s duration. This armor has no Strength requirement, doesn’t hinder spellcasting, and doesn’t incur disadvantage on Dexterity (Stealth) checks.\n\nIf the creature you struck was a celestial, **blood armor** also grants you advantage on Charisma saving throws for the duration of the spell.",
+    "higher_level": "",
+    "page": "",
+    "range": "Self",
+    "target_range_sort": 0,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "you must have just struck a foe with a melee weapon",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "1 hour",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 bonus action",
+    "level": "3rd-level",
+    "level_int": 3,
+    "spell_level": 3,
+    "school": "necromancy",
+    "dnd_class": "Sorcerer, Warlock, Wizard",
+    "spell_lists": [
+        "sorcerer",
+        "warlock",
+        "wizard"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "dmag",
+    "document__title": "Deep Magic 5e",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/"
+}

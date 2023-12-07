@@ -1,1 +1,20 @@
-{"name":"Breastplate","slug":"breastplate","category":"Medium Armor","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd","base_ac":14,"plus_dex_mod":true,"plus_con_mod":false,"plus_wis_mod":false,"plus_flat_mod":0,"plus_max":2,"ac_string":"14 + Dex modifier (max 2)","strength_requirement":null,"cost":"400 gp","weight":"","stealth_disadvantage":false}
+{
+    "name": "Breastplate",
+    "slug": "breastplate",
+    "category": "Medium Armor",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+    "base_ac": 14,
+    "plus_dex_mod": true,
+    "plus_con_mod": false,
+    "plus_wis_mod": false,
+    "plus_flat_mod": 0,
+    "plus_max": 2,
+    "ac_string": "14 + Dex modifier (max 2)",
+    "strength_requirement": null,
+    "cost": "400 gp",
+    "weight": "",
+    "stealth_disadvantage": false
+}

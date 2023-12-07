@@ -1,1 +1,16 @@
-{"name":"Hermit","desc":"You lived for years alone in a remote shrine, cave, monastery, or elsewhere away from the world. Among your daily tasks you had lots of time for introspection.\n\nWhy were you alone? Were you performing penance? In exile or hiding? Tending a shrine or holy spot? Grieving?","slug":"hermit","skill_proficiencies":"Religion, and either Medicine or Survival.","tool_proficiencies":null,"languages":null,"equipment":"Healer's satchel, herbalism kit, common clothes, 7 days rations, and a prayer book, prayer wheel, or prayer beads.","feature":"Inner Voice","feature_desc":"","suggested_characteristics":"### **Hermit Mementos**\n\n1. The (possibly unhinged) manifesto, encyclopedia, or theoretical work that you spent so much time on.\n2. The faded set of fine clothes you preserved for so many years.\n3. The signet ring bearing the family crest that you were ashamed of for so long.\n4. The book of forbidden secrets that led you to your isolated refuge.\n5. The beetle, mouse, or other small creature which was your only companion for so long.\n6. The seemingly nonmagical item that your inner voice says is important.\n7. The magic-defying clay tablets you spent years translating.\n8. The holy relic you were duty bound to protect.\n9. The meteor metal you found in a crater the day you first heard your inner voice.\n10. Your ridiculous-looking sun hat.","document__slug":"a5e","document__title":"Level Up Advanced 5e","document__license_url":"http://open5e.com/legal","document__url":"https://a5esrd.com/a5esrd"}
+{
+    "name": "Hermit",
+    "desc": "You lived for years alone in a remote shrine, cave, monastery, or elsewhere away from the world. Among your daily tasks you had lots of time for introspection.\n\nWhy were you alone? Were you performing penance? In exile or hiding? Tending a shrine or holy spot? Grieving?",
+    "slug": "hermit",
+    "skill_proficiencies": "Religion, and either Medicine or Survival.",
+    "tool_proficiencies": null,
+    "languages": null,
+    "equipment": "Healer's satchel, herbalism kit, common clothes, 7 days rations, and a prayer book, prayer wheel, or prayer beads.",
+    "feature": "Inner Voice",
+    "feature_desc": "",
+    "suggested_characteristics": "### **Hermit Mementos**\n\n1. The (possibly unhinged) manifesto, encyclopedia, or theoretical work that you spent so much time on.\n2. The faded set of fine clothes you preserved for so many years.\n3. The signet ring bearing the family crest that you were ashamed of for so long.\n4. The book of forbidden secrets that led you to your isolated refuge.\n5. The beetle, mouse, or other small creature which was your only companion for so long.\n6. The seemingly nonmagical item that your inner voice says is important.\n7. The magic-defying clay tablets you spent years translating.\n8. The holy relic you were duty bound to protect.\n9. The meteor metal you found in a crater the day you first heard your inner voice.\n10. Your ridiculous-looking sun hat.",
+    "document__slug": "a5e",
+    "document__title": "Level Up Advanced 5e",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://a5esrd.com/a5esrd"
+}

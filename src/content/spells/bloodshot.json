@@ -1,1 +1,36 @@
-{"slug":"bloodshot","name":"Bloodshot","desc":"You launch a jet of boiling blood from your eyes at a creature within range. You take 1d6 necrotic damage and make a ranged spell attack against the target. If the attack hits, the target takes 2d10 fire damage plus 2d8 psychic damage.\n","higher_level":"When you cast this spell using a spell slot of 3rd level or higher, the fire damage increases by 1d10 for each slot level above 2nd.","page":"","range":"40 feet","target_range_sort":40,"components":"V, S","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":false,"material":"","can_be_cast_as_ritual":false,"ritual":"no","duration":"Instantaneous","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"2nd-level","level_int":2,"spell_level":2,"school":"conjuration","dnd_class":"Sorcerer, Warlock, Wizard","spell_lists":["sorcerer","warlock","wizard"],"archetype":"","circles":"","document__slug":"dmag","document__title":"Deep Magic 5e","document__license_url":"http://open5e.com/legal","document__url":"https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/"}
+{
+    "slug": "bloodshot",
+    "name": "Bloodshot",
+    "desc": "You launch a jet of boiling blood from your eyes at a creature within range. You take 1d6 necrotic damage and make a ranged spell attack against the target. If the attack hits, the target takes 2d10 fire damage plus 2d8 psychic damage.\n",
+    "higher_level": "When you cast this spell using a spell slot of 3rd level or higher, the fire damage increases by 1d10 for each slot level above 2nd.",
+    "page": "",
+    "range": "40 feet",
+    "target_range_sort": 40,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "2nd-level",
+    "level_int": 2,
+    "spell_level": 2,
+    "school": "conjuration",
+    "dnd_class": "Sorcerer, Warlock, Wizard",
+    "spell_lists": [
+        "sorcerer",
+        "warlock",
+        "wizard"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "dmag",
+    "document__title": "Deep Magic 5e",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/"
+}

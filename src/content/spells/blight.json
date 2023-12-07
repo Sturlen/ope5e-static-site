@@ -1,1 +1,37 @@
-{"slug":"blight","name":"Blight","desc":"Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on undead or constructs. If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it. If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw; it simply withers and dies.","higher_level":"When you cast this spell using a spell slot of 5th level of higher, the damage increases by 1d8 for each slot level above 4th.","page":"phb 219","range":"30 feet","target_range_sort":30,"components":"V, S","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":false,"material":"","can_be_cast_as_ritual":false,"ritual":"no","duration":"Instantaneous","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"4th-level","level_int":4,"spell_level":4,"school":"Necromancy","dnd_class":"Druid, Sorcerer, Warlock, Wizard","spell_lists":["sorcerer","warlock","wizard","druid"],"archetype":"","circles":"Desert","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "blight",
+    "name": "Blight",
+    "desc": "Necromantic energy washes over a creature of your choice that you can see within range, draining moisture and vitality from it. The target must make a constitution saving throw. The target takes 8d8 necrotic damage on a failed save, or half as much damage on a successful one. The spell has no effect on undead or constructs. If you target a plant creature or a magical plant, it makes the saving throw with disadvantage, and the spell deals maximum damage to it. If you target a nonmagical plant that isn't a creature, such as a tree or shrub, it doesn't make a saving throw; it simply withers and dies.",
+    "higher_level": "When you cast this spell using a spell slot of 5th level of higher, the damage increases by 1d8 for each slot level above 4th.",
+    "page": "phb 219",
+    "range": "30 feet",
+    "target_range_sort": 30,
+    "components": "V, S",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": false,
+    "material": "",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "4th-level",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Necromancy",
+    "dnd_class": "Druid, Sorcerer, Warlock, Wizard",
+    "spell_lists": [
+        "sorcerer",
+        "warlock",
+        "wizard",
+        "druid"
+    ],
+    "archetype": "",
+    "circles": "Desert",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

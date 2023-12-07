@@ -1,1 +1,20 @@
-{"name":"Plate","slug":"plate","category":"Heavy Armor","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd","base_ac":18,"plus_dex_mod":false,"plus_con_mod":false,"plus_wis_mod":false,"plus_flat_mod":0,"plus_max":0,"ac_string":"18","strength_requirement":15,"cost":"1500 gp","weight":"","stealth_disadvantage":true}
+{
+    "name": "Plate",
+    "slug": "plate",
+    "category": "Heavy Armor",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
+    "base_ac": 18,
+    "plus_dex_mod": false,
+    "plus_con_mod": false,
+    "plus_wis_mod": false,
+    "plus_flat_mod": 0,
+    "plus_max": 0,
+    "ac_string": "18",
+    "strength_requirement": 15,
+    "cost": "1500 gp",
+    "weight": "",
+    "stealth_disadvantage": true
+}

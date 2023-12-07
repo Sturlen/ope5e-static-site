@@ -1,1 +1,37 @@
-{"slug":"foresight","name":"Foresight","desc":"You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration. This spell immediately ends if you cast it again before its duration ends.","higher_level":"","page":"phb 244","range":"Touch","target_range_sort":1,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"A hummingbird feather.","can_be_cast_as_ritual":false,"ritual":"no","duration":"8 hours","concentration":"no","requires_concentration":false,"casting_time":"1 minute","level":"9th-level","level_int":9,"spell_level":9,"school":"Divination","dnd_class":"Bard, Druid, Warlock, Wizard","spell_lists":["bard","warlock","wizard","druid"],"archetype":"","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "foresight",
+    "name": "Foresight",
+    "desc": "You touch a willing creature and bestow a limited ability to see into the immediate future. For the duration, the target can't be surprised and has advantage on attack rolls, ability checks, and saving throws. Additionally, other creatures have disadvantage on attack rolls against the target for the duration. This spell immediately ends if you cast it again before its duration ends.",
+    "higher_level": "",
+    "page": "phb 244",
+    "range": "Touch",
+    "target_range_sort": 1,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "A hummingbird feather.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "8 hours",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 minute",
+    "level": "9th-level",
+    "level_int": 9,
+    "spell_level": 9,
+    "school": "Divination",
+    "dnd_class": "Bard, Druid, Warlock, Wizard",
+    "spell_lists": [
+        "bard",
+        "warlock",
+        "wizard",
+        "druid"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

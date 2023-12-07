@@ -1,1 +1,35 @@
-{"slug":"divination","name":"Divination","desc":"Your magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen. The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.","higher_level":"","page":"phb 234","range":"Self","target_range_sort":0,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"Incense and a sacrificial offering appropriate to your religion, together worth at least 25gp, which the spell consumes.","can_be_cast_as_ritual":true,"ritual":"yes","duration":"Instantaneous","concentration":"no","requires_concentration":false,"casting_time":"1 action","level":"4th-level","level_int":4,"spell_level":4,"school":"Divination","dnd_class":"Cleric, Druid, Ritual Caster","spell_lists":["cleric","druid"],"archetype":"Druid: Forest, Grassland","circles":"Forest, Grassland","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "divination",
+    "name": "Divination",
+    "desc": "Your magic and an offering put you in contact with a god or a god's servants. You ask a single question concerning a specific goal, event, or activity to occur within 7 days. The DM offers a truthful reply. The reply might be a short phrase, a cryptic rhyme, or an omen. The spell doesn't take into account any possible circumstances that might change the outcome, such as the casting of additional spells or the loss or gain of a companion. If you cast the spell two or more times before finishing your next long rest, there is a cumulative 25 percent chance for each casting after the first that you get a random reading. The DM makes this roll in secret.",
+    "higher_level": "",
+    "page": "phb 234",
+    "range": "Self",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "Incense and a sacrificial offering appropriate to your religion, together worth at least 25gp, which the spell consumes.",
+    "can_be_cast_as_ritual": true,
+    "ritual": "yes",
+    "duration": "Instantaneous",
+    "concentration": "no",
+    "requires_concentration": false,
+    "casting_time": "1 action",
+    "level": "4th-level",
+    "level_int": 4,
+    "spell_level": 4,
+    "school": "Divination",
+    "dnd_class": "Cleric, Druid, Ritual Caster",
+    "spell_lists": [
+        "cleric",
+        "druid"
+    ],
+    "archetype": "Druid: Forest, Grassland",
+    "circles": "Forest, Grassland",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}

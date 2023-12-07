@@ -1,1 +1,36 @@
-{"slug":"find-the-path","name":"Find the Path","desc":"This spell allows you to find the shortest, most direct physical route to a specific fixed location that you are familiar with on the same plane of existence. If you name a destination on another plane of existence, a destination that moves (such as a mobile fortress), or a destination that isn't specific (such as \"a green dragon's lair\"), the spell fails. For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination.","higher_level":"","page":"phb 240","range":"Self","target_range_sort":0,"components":"V, S, M","requires_verbal_components":true,"requires_somatic_components":true,"requires_material_components":true,"material":"A set of divinatory tools-such as bones, ivory sticks, cards, teeth, or carved runes-worth 100gp and an object from the location you wish to find.","can_be_cast_as_ritual":false,"ritual":"no","duration":"Up to 24 hours","concentration":"yes","requires_concentration":true,"casting_time":"1 minute","level":"6th-level","level_int":6,"spell_level":6,"school":"Divination","dnd_class":"Bard, Cleric, Druid","spell_lists":["bard","cleric","druid"],"archetype":"","circles":"","document__slug":"wotc-srd","document__title":"5e Core Rules","document__license_url":"http://open5e.com/legal","document__url":"http://dnd.wizards.com/articles/features/systems-reference-document-srd"}
+{
+    "slug": "find-the-path",
+    "name": "Find the Path",
+    "desc": "This spell allows you to find the shortest, most direct physical route to a specific fixed location that you are familiar with on the same plane of existence. If you name a destination on another plane of existence, a destination that moves (such as a mobile fortress), or a destination that isn't specific (such as \"a green dragon's lair\"), the spell fails. For the duration, as long as you are on the same plane of existence as the destination, you know how far it is and in what direction it lies. While you are traveling there, whenever you are presented with a choice of paths along the way, you automatically determine which path is the shortest and most direct route (but not necessarily the safest route) to the destination.",
+    "higher_level": "",
+    "page": "phb 240",
+    "range": "Self",
+    "target_range_sort": 0,
+    "components": "V, S, M",
+    "requires_verbal_components": true,
+    "requires_somatic_components": true,
+    "requires_material_components": true,
+    "material": "A set of divinatory tools-such as bones, ivory sticks, cards, teeth, or carved runes-worth 100gp and an object from the location you wish to find.",
+    "can_be_cast_as_ritual": false,
+    "ritual": "no",
+    "duration": "Up to 24 hours",
+    "concentration": "yes",
+    "requires_concentration": true,
+    "casting_time": "1 minute",
+    "level": "6th-level",
+    "level_int": 6,
+    "spell_level": 6,
+    "school": "Divination",
+    "dnd_class": "Bard, Cleric, Druid",
+    "spell_lists": [
+        "bard",
+        "cleric",
+        "druid"
+    ],
+    "archetype": "",
+    "circles": "",
+    "document__slug": "wotc-srd",
+    "document__title": "5e Core Rules",
+    "document__license_url": "http://open5e.com/legal",
+    "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd"
+}
