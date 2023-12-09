@@ -1,24 +1,15 @@
 ---
-import { type Spell, SpellSchema } from "../../api/spell"
+import { getCollection } from "astro:content"
 import Stats from "../../components/Stats.astro"
 import Layout from "../../layouts/Layout.astro"
 
-
-interface Props {
-    spell: Spell
-}
-
 export async function getStaticPaths() {
-    const modules = [...(await Astro.glob("/src/api/spells.json"))] as [
-        { default: any[] }
-    ]
+    const spellsEntries = await getCollection("spells")
 
-    return modules[0].default
-        .map((raw) => SpellSchema.parse(raw))
-        .map((spell) => ({
-            params: { slug: spell.slug },
-            props: { spell },
-        }))
+    return spellsEntries.map((spell) => ({
+        params: { slug: spell.id },
+        props: { spell: spell.data },
+    }))
 }
 
 const { spell } = Astro.props

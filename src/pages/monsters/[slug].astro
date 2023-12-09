@@ -4,13 +4,9 @@ import { type Monster, MonsterSchema, type Stat } from "../../api/monster"
 import Layout from "../../layouts/Layout.astro"
 import Stats from "../../components/Stats.astro"
 import DiceField from "../../components/DiceField"
-import { getCollection, getEntries } from "astro:content"
+import { getCollection } from "astro:content"
 
 export async function getStaticPaths() {
-    const modules = [...(await Astro.glob("/src/api/monsters.json"))] as [
-        { default: any[] },
-    ]
-
     const monsterEntries = await getCollection("monsters")
 
     return monsterEntries.map((monster) => ({

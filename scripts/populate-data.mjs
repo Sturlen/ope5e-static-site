@@ -1,5 +1,6 @@
 import { readFileSync, writeFileSync } from "fs"
 import slugify from "slugify"
+import { ElderberryInnGlyphs } from "./elderberry-inn-glyphs.mjs"
 
 const endpoints = [
     "monsters",
@@ -16,6 +17,29 @@ const endpoints = [
     "weapons",
     "armor",
 ]
+
+const groupBy = (values, keyFinder) => {
+    // using reduce to aggregate values
+    return values.reduce((a, b) => {
+        // depending upon the type of keyFinder
+        // if it is function, pass the value to it
+        // if it is a property, access the property
+        const key =
+            typeof keyFinder === "function" ? keyFinder(b) : b[keyFinder]
+
+        // aggregate values based on the keys
+        if (!a[key]) {
+            a[key] = [b]
+        } else {
+            a[key] = [...a[key], b]
+        }
+
+        return a
+    }, {})
+}
+
+const typeset = new Set()
+const subtypeset = new Set()
 
 const transformers = new Map([
     [
@@ -43,10 +67,30 @@ const transformers = new Map([
                     trim: true,
                 })
                 mon.img = image_map.get(slug)
+
+                typeset.add(mon.type)
+                subtypeset.add(mon.subtype)
                 return mon
             })
+
+            console.log(typeset, subtypeset)
+
             return monsters_w_images
         },
+    ],
+    [
+        "spells",
+        (spells) =>
+            spells.map((spell) => {
+                const slug = slugify(spell.name, {
+                    lower: true,
+                    strict: true,
+                    trim: true,
+                })
+                const icon = ElderberryInnGlyphs[slug]
+                spell.icon = icon
+                return spell
+            }),
     ],
 ])
 

@@ -1,10 +1,7 @@
 ---
+import { getCollection } from "astro:content"
 import Layout from "../layouts/Layout.astro"
-import { SpellSchema } from "../api/spell"
-const modules = [...(await Astro.glob("/src/api/spells.json"))] as [
-    { default: any[] }
-]
-const SpellData = modules[0].default.map((raw) => SpellSchema.parse(raw))
+const spellsEntries = await getCollection("spells")
 ---
 
 <Layout title="Spells">
@@ -12,12 +9,13 @@ const SpellData = modules[0].default.map((raw) => SpellSchema.parse(raw))
         <h1>Spells</h1>
         <ul role="list" class="link-card-grid">
             {
-                SpellData.map((spell) => (
+                spellsEntries.map(({ data: spell }) => (
                     <li class="card">
                         <span class="title">
                             <a href={`/spells/${spell.slug}`}>
                                 <strong class="name">{spell.name} </strong>
                             </a>
+
                             <i class="school">- {spell.school}</i>
 
                             <span class="source">{spell.document__slug}</span>
@@ -25,8 +23,12 @@ const SpellData = modules[0].default.map((raw) => SpellSchema.parse(raw))
                         <p>
                             <strong>{spell.components}</strong>
                         </p>
-
-                        <i>{spell.dnd_class}</i>
+                        <span style="display: flex; align-items: flex-end;">
+                            <i>{spell.dnd_class}</i>
+                            {spell.icon && (
+                                <span class="icon">{spell.icon}</span>
+                            )}
+                        </span>
                     </li>
                 ))
             }
@@ -40,5 +42,22 @@ const SpellData = modules[0].default.map((raw) => SpellSchema.parse(raw))
     }
     .school {
         margin-left: 1ch;
+    }
+    .icon {
+        font-family: elderberry-inn-icons !important;
+        speak: never;
+        font-style: normal;
+        font-weight: 400;
+        font-feature-settings: normal;
+        font-variant: normal;
+        text-transform: none;
+        line-height: 1;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        margin-left: auto;
+        font-size: 3rem;
+        background-color: black;
+        color: white;
+        border-radius: 5px;
     }
 </style>

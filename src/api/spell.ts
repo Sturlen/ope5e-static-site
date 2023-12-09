@@ -30,6 +30,5 @@ export const SpellSchema = z.object({
     document__title: z.string(),
     document__license_url: z.string(),
     document__url: z.string(),
+    icon: z.string().nullish(),
 })
-
-export type Spell = z.infer<typeof SpellSchema>

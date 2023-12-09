@@ -5,19 +5,18 @@ export interface Props {
     image?: string | undefined
 }
 
-
 const {
     title,
     description = "5e content available under the OGL",
     image,
 } = Astro.props
 
-const params = new URLSearchParams({name: title}).toString()
+const params = new URLSearchParams({ name: title }).toString()
 
 const image_url = image || `/api/og?${params}`
 ---
 
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
     <head>
         <meta charset="UTF-8" />
@@ -66,6 +65,14 @@ const image_url = image || `/api/og?${params}`
         );
     }
 
+    @font-face {
+        font-family: elderberry-inn-icons;
+        src: url("/fonts/elderberry-inn-icons.ttf") format("truetype");
+        font-weight: 400;
+        font-style: normal;
+        font-display: block;
+    }
+
     body {
         margin: 0;
         padding: 0;
@@ -103,8 +110,15 @@ const image_url = image || `/api/og?${params}`
     }
 
     code {
-        font-family: Menlo, Monaco, Lucida Console, Liberation Mono,
-            DejaVu Sans Mono, Bitstream Vera Sans Mono, Courier New, monospace;
+        font-family:
+            Menlo,
+            Monaco,
+            Lucida Console,
+            Liberation Mono,
+            DejaVu Sans Mono,
+            Bitstream Vera Sans Mono,
+            Courier New,
+            monospace;
     }
     header {
         background-color: rgb(var(--accent));
