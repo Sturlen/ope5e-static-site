@@ -31,6 +31,9 @@ const {
     hit_dice,
     hit_points,
     modifiers,
+    skills,
+    senses,
+    languages,
     ...data
 } = monster
 
@@ -123,18 +126,29 @@ const SEO = `The ${name} is a CR ${challenge_rating} ${monster.size} ${monster.t
 
         <p>
             <strong>Skills</strong>
-            <span>{0}</span>
+            <span
+                >{
+                    Object.keys(skills)
+                        .map((key) => `${key} ${skills[key]}`)
+                        .join(", ")
+                }</span
+            >
         </p>
+
         <p>
             <strong>Senses</strong>
-            <span>{0}</span>
+            <span>{senses}</span>
         </p>
+        {
+            languages && (
+                <p>
+                    <strong>Languages</strong>
+                    <span>{languages}</span>
+                </p>
+            )
+        }
         <p>
-            <strong>Languages</strong>
-            <span>{0}</span>
-        </p>
-        <p>
-            <strong>Challenge</strong>
+            <strong>Challenge Rating</strong>
             <span>{challenge_rating}</span>
         </p>
 
