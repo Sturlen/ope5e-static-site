@@ -30,12 +30,21 @@ const {
     armor_desc,
     hit_dice,
     hit_points,
+    modifiers,
     ...data
 } = monster
 
 const desc = `${monster.size ?? ""} ${monster.type ?? "monster"}${
     subtype ? " (" + subtype + ")" : ""
 }, ${monster.alignment ?? ""} (CR ${challenge_rating})`
+
+export function signed(number: number): string {
+    if (number >= 0) {
+        return "+" + number.toString()
+    } else {
+        return number.toString()
+    }
+}
 
 const SEO = `The ${name} is a CR ${challenge_rating} ${monster.size} ${monster.type}. It has ${hit_points} HP and an AC of ${armor_class}. \n Source: ${monster.document__title}`
 ---
@@ -100,7 +109,11 @@ const SEO = `The ${name} is a CR ${challenge_rating} ${monster.size} ${monster.t
                 Object.keys(stats).map((key) => (
                     <div class="stat">
                         <strong>{key.toUpperCase()}</strong>
-                        <p>{stats[key as Stat]}</p>
+                        <p>
+                            {stats[key as Stat]}
+                            {"(" + signed(modifiers[key as Stat]) + ")"}
+                        </p>
+                        <p />
                     </div>
                 ))
             }

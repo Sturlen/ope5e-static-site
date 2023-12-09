@@ -123,6 +123,22 @@ export const MonsterSchema = z
             } as const,
         }
     })
+    .transform((m) => {
+        const { stats } = m
+        const modifiers = {
+            str: abilityModfier(stats.str),
+            dex: abilityModfier(stats.dex),
+            con: abilityModfier(stats.con),
+            int: abilityModfier(stats.int),
+            wis: abilityModfier(stats.wis),
+            chr: abilityModfier(stats.chr),
+        }
+        return { ...m, modifiers }
+    })
+
+function abilityModfier(abilityScore: number) {
+    return Math.floor((abilityScore - 10) / 2)
+}
 
 export type Stat = "str" | "dex" | "con" | "int" | "wis" | "chr"
 
