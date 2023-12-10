@@ -9,13 +9,17 @@ import { getCollection } from "astro:content"
 export async function getStaticPaths() {
     const monsterEntries = await getCollection("monsters")
 
-    return monsterEntries.map((monster) => ({
+    return monsterEntries.map((monster, i) => ({
         params: { slug: monster.id },
-        props: { monster: monster.data },
+        props: {
+            monster: monster.data,
+            prev: monsterEntries[i - 1],
+            next: monsterEntries[i + 1],
+        },
     }))
 }
 
-const { monster } = Astro.props
+const { monster, next, prev } = Astro.props
 
 const {
     challenge_rating,
@@ -183,6 +187,39 @@ const SEO = `The ${name} is a CR ${challenge_rating} ${monster.size} ${monster.t
         <a href={monster.document__license_url} target="_blank"
             >{monster.document__title}</a
         >{monster.page_no && <span>, page no. {monster.page_no}</span>}
+        <hr />
+        <div style="display: flex; justify-content: space-between; ">
+            <span>
+                {
+                    prev && (
+                        <>
+                            <b>Previous: </b>
+                            <a
+                                href={`/monsters/${prev.id}`}
+                                class="btn btn--primary"
+                            >
+                                {prev.data.name}
+                            </a>
+                        </>
+                    )
+                }
+            </span>
+            <span>
+                {
+                    next && (
+                        <>
+                            <b>Next: </b>
+                            <a
+                                href={`/monsters/${next.id}`}
+                                class="btn btn--primary"
+                            >
+                                {next.data.name}
+                            </a>
+                        </>
+                    )
+                }
+            </span>
+        </div>
     </main>
 </Layout>
 
