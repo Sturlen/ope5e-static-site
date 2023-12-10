@@ -1,3 +1,4 @@
+import fs from "fs"
 export const ElderberryInnGlyphs = {
     0: "",
     1: "",
@@ -190,4 +191,14 @@ export const ElderberryInnGlyphs = {
     "wall-of-stone": "",
     "wall-of-thorns": "",
     wish: "",
-}
+} as const
+
+const file = Object.fromEntries(
+    Object.entries(ElderberryInnGlyphs).map(([k, v]) => [k, `/icons/${k}.svg`])
+)
+
+fs.writeFileSync(
+    "./scripts/elderberry-inn-icons.json",
+    JSON.stringify(file, null, 4),
+    "utf-8"
+)

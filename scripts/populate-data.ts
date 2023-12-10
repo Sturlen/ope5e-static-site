@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "fs"
 import slugify from "slugify"
-import { ElderberryInnGlyphs } from "./elderberry-inn-glyphs.js"
+import { ElderberryInnIcons } from "./elderberry-inn-icons"
 
 const endpoints = [
     "monsters",
@@ -87,7 +87,7 @@ const transformers = new Map([
                     strict: true,
                     trim: true,
                 })
-                const icon = ElderberryInnGlyphs[slug]
+                const icon = ElderberryInnIcons[slug]
                 spell.icon = icon
 
                 if (spell.dnd_class.length > 0) {
