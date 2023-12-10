@@ -193,12 +193,15 @@ export const ElderberryInnGlyphs = {
     wish: "",
 } as const
 
-const file = Object.fromEntries(
-    Object.entries(ElderberryInnGlyphs).map(([k, v]) => [k, `/icons/${k}.svg`])
-)
+const files = fs.readdirSync("./public/icons").map((file) => {
+    console.log(file.split(".")[0])
+    return [file.split(".")[0], `/icons/${file}`]
+})
 
+const mapper = Object.fromEntries(files)
+console.log(mapper)
 fs.writeFileSync(
     "./scripts/elderberry-inn-icons.json",
-    JSON.stringify(file, null, 4),
+    JSON.stringify(mapper, null, 4),
     "utf-8"
 )
