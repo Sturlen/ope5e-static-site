@@ -1,6 +1,6 @@
 import { readFileSync, writeFileSync } from "fs"
 import slugify from "slugify"
-import { ElderberryInnGlyphs } from "./elderberry-inn-glyphs.mjs"
+import { ElderberryInnGlyphs } from "./elderberry-inn-glyphs.js"
 
 const endpoints = [
     "monsters",
@@ -16,7 +16,7 @@ const endpoints = [
     "magicitems",
     "weapons",
     "armor",
-]
+] as const
 
 const groupBy = (values, keyFinder) => {
     // using reduce to aggregate values
