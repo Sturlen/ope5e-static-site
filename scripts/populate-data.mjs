@@ -46,7 +46,7 @@ const transformers = new Map([
         "monsters",
         (monsters) => {
             const images_data = JSON.parse(
-                readFileSync("./src/api/monster_images.json", {
+                readFileSync("./scripts/monster_images.json", {
                     encoding: "utf-8",
                 })
             )
@@ -90,14 +90,18 @@ const transformers = new Map([
                 const icon = ElderberryInnGlyphs[slug]
                 spell.icon = icon
 
-                spell.classes =
-                    spell.dnd_class?.split(", ").map((cls) =>
-                        slugify(cls, {
-                            lower: true,
-                            strict: true,
-                            trim: true,
-                        })
-                    ) ?? []
+                if (spell.dnd_class.length > 0) {
+                    spell.classes =
+                        spell.dnd_class?.split(", ").map((cls) =>
+                            slugify(cls, {
+                                lower: true,
+                                strict: true,
+                                trim: true,
+                            })
+                        ) ?? []
+                } else {
+                    spell.classes = []
+                }
                 return spell
             }),
     ],
