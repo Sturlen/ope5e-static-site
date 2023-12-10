@@ -1,19 +1,15 @@
 ---
 import Layout from "../layouts/Layout.astro"
-import { Monster, MonsterSchema } from "../api/monster"
 import Search from "../components/Search"
-const modules = [...(await Astro.glob("/src/api/monsters.json"))] as [
-    { default: any[] }
-]
+import { getCollection } from "astro:content"
 
-const MonsterData: Monster[] = modules[0].default.map((raw) =>
-    MonsterSchema.parse(raw)
-)
+const montersEntries = await getCollection("monsters")
+const monsters = montersEntries.map((entry) => entry.data)
 ---
 
 <Layout title="Monsters">
     <main>
         <h1>Monsters</h1>
-        <Search initialResults={MonsterData} client:load />
+        <Search initialResults={monsters} client:load />
     </main>
 </Layout>

@@ -14,7 +14,7 @@ export async function getStaticPaths() {
 
 const { spell } = Astro.props
 
-const { name, desc, ...other } = spell
+const { name, desc, classes, ...other } = spell
 
 const data: Record<string, any> = other
 ---
@@ -29,7 +29,7 @@ const data: Record<string, any> = other
         <h2>Classes</h2>
         <ul>
             {
-                data.classes.map((cls: string) => (
+                classes.map((cls: string) => (
                     <li>
                         <a href={`/classes/${cls}`}>{cls}</a>
                     </li>
