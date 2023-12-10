@@ -8,6 +8,7 @@
         "build": "astro build",
         "preview": "astro preview",
         "data": "tsx ./scripts/populate-data.ts",
+        "icons": "tsx ./scripts/elderberry-inn-glyphs.ts",
         "astro": "astro"
     },
     "dependencies": {
