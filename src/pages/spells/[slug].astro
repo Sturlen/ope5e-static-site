@@ -25,6 +25,17 @@ const data: Record<string, any> = other
             {name}
         </h1>
         <p>{desc}</p>
+
+        <h2>Classes</h2>
+        <ul>
+            {
+                data.classes.map((cls: string) => (
+                    <li>
+                        <a href={`/classes/${cls}`}>{cls}</a>
+                    </li>
+                ))
+            }
+        </ul>
         <hr />
         <Stats data={data} />
     </main>

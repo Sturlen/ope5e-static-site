@@ -1,24 +1,17 @@
 ---
+import { getCollection } from "astro:content"
 import { type Class5e, Class5eSchema } from "../../api/class"
 import Stats from "../../components/Stats.astro"
 import Layout from "../../layouts/Layout.astro"
 import { marked } from "marked"
 
-interface Props {
-    spell: Class5e
-}
-
 export async function getStaticPaths() {
-    const modules = [...(await Astro.glob("/src/api/classes.json"))] as [
-        { default: any[] }
-    ]
+    const classesEntries = await getCollection("classes")
 
-    return modules[0].default
-        .map((raw) => Class5eSchema.parse(raw))
-        .map((spell) => ({
-            params: { slug: spell.slug },
-            props: { spell },
-        }))
+    return classesEntries.map((spell) => ({
+        params: { slug: spell.id },
+        props: { spell: spell.data },
+    }))
 }
 
 const { spell } = Astro.props
@@ -40,7 +33,7 @@ const data: Record<string, any> = other
                     {
                         headerIds: false,
                         mangle: false,
-                    }
+                    },
                 )}
             />
         </p>
@@ -51,7 +44,7 @@ const data: Record<string, any> = other
                 {
                     headerIds: false,
                     mangle: false,
-                }
+                },
             )}
         />
         <h2>Archetypes</h2>
