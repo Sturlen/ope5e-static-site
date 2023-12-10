@@ -28,5 +28,12 @@
     "document__slug": "toh",
     "document__title": "Tome of Heroes",
     "document__license_url": "http://open5e.com/legal",
-    "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/"
+    "document__url": "https://koboldpress.com/kpstore/product/tome-of-heroes-for-5th-edition/",
+    "classes": [
+        "cleric",
+        "druid",
+        "sorceror",
+        "warlock",
+        "wizard"
+    ]
 }

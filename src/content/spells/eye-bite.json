@@ -33,5 +33,11 @@
     "document__slug": "o5e",
     "document__title": "Open5e Original Content",
     "document__license_url": "http://open5e.com/legal",
-    "document__url": "open5e.com"
+    "document__url": "open5e.com",
+    "classes": [
+        "bard",
+        "sorcerer",
+        "warlock",
+        "wizard"
+    ]
 }

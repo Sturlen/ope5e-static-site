@@ -32,5 +32,11 @@
     "document__slug": "warlock",
     "document__title": "Warlock Archives",
     "document__license_url": "http://open5e.com/legal",
-    "document__url": "https://koboldpress.com/kpstore/product-category/all-products/warlock-5th-edition-dnd/"
+    "document__url": "https://koboldpress.com/kpstore/product-category/all-products/warlock-5th-edition-dnd/",
+    "classes": [
+        "ranger",
+        "sorceror",
+        "warlock",
+        "wizard"
+    ]
 }

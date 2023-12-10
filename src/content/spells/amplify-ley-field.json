@@ -32,5 +32,11 @@
     "document__slug": "dmag-e",
     "document__title": "Deep Magic Extended",
     "document__license_url": "http://open5e.com/legal",
-    "document__url": "https://koboldpress.com"
+    "document__url": "https://koboldpress.com",
+    "classes": [
+        "sorceror",
+        "warlock",
+        "wizard",
+        "druid"
+    ]
 }

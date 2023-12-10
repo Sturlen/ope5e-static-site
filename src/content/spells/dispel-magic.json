@@ -36,5 +36,14 @@
     "document__title": "5e Core Rules",
     "document__license_url": "http://open5e.com/legal",
     "document__url": "http://dnd.wizards.com/articles/features/systems-reference-document-srd",
-    "icon": ""
+    "icon": "",
+    "classes": [
+        "bard",
+        "cleric",
+        "druid",
+        "paladin",
+        "sorcerer",
+        "warlock",
+        "wizard"
+    ]
 }

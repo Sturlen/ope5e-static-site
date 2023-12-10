@@ -28,5 +28,9 @@
     "document__slug": "a5e",
     "document__title": "Level Up Advanced 5e",
     "document__license_url": "http://open5e.com/legal",
-    "document__url": "https://a5esrd.com/a5esrd"
+    "document__url": "https://a5esrd.com/a5esrd",
+    "classes": [
+        "druid",
+        "wizard"
+    ]
 }

@@ -30,5 +30,8 @@
     "document__slug": "kp",
     "document__title": "Kobold Press Compilation",
     "document__license_url": "http://open5e.com/legal",
-    "document__url": "https://koboldpress.com"
+    "document__url": "https://koboldpress.com",
+    "classes": [
+        "druid"
+    ]
 }

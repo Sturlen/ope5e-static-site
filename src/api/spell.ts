@@ -1,3 +1,4 @@
+import { reference } from "astro:content"
 import { z } from "zod"
 
 export const SpellSchema = z.object({
@@ -26,6 +27,7 @@ export const SpellSchema = z.object({
     dnd_class: z.string(),
     archetype: z.string(),
     circles: z.string(),
+    classes: z.array(z.string()),
     document__slug: z.string(),
     document__title: z.string(),
     document__license_url: z.string(),

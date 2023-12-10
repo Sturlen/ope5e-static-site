@@ -28,5 +28,8 @@
     "document__slug": "dmag",
     "document__title": "Deep Magic 5e",
     "document__license_url": "http://open5e.com/legal",
-    "document__url": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/"
+    "document__url": "https://koboldpress.com/kpstore/product/deep-magic-for-5th-edition-hardcover/",
+    "classes": [
+        "druid"
+    ]
 }

@@ -29,5 +29,10 @@
     "document__title": "Level Up Advanced 5e",
     "document__license_url": "http://open5e.com/legal",
     "document__url": "https://a5esrd.com/a5esrd",
-    "icon": ""
+    "icon": "",
+    "classes": [
+        "sorcerer",
+        "warlock",
+        "wizard"
+    ]
 }

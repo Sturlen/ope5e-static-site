@@ -89,6 +89,15 @@ const transformers = new Map([
                 })
                 const icon = ElderberryInnGlyphs[slug]
                 spell.icon = icon
+
+                spell.classes =
+                    spell.dnd_class?.split(", ").map((cls) =>
+                        slugify(cls, {
+                            lower: true,
+                            strict: true,
+                            trim: true,
+                        })
+                    ) ?? []
                 return spell
             }),
     ],
