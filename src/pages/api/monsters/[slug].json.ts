@@ -7,7 +7,7 @@ export const GET: APIRoute = async ({ params, request }) => {
     if (!entry) {
         return new Response("Not found", { status: 404 })
     }
-    return new Response(JSON.stringify(entry.data))
+    return new Response(JSON.stringify(entry.data, null, 4))
 }
 
 export async function getStaticPaths() {
