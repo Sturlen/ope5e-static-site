@@ -188,34 +188,24 @@ const SEO = `The ${name} is a CR ${challenge_rating} ${monster.size} ${monster.t
             >{monster.document__title}</a
         >{monster.page_no && <span>, page no. {monster.page_no}</span>}
         <hr />
-        <div style="display: flex; justify-content: space-between; ">
+        <div
+            style="display: flex; justify-content: space-between; font-size: 1.4rem;"
+        >
             <span>
                 {
                     prev && (
-                        <>
-                            <b>Previous: </b>
-                            <a
-                                href={`/monsters/${prev.id}`}
-                                class="btn btn--primary"
-                            >
-                                {prev.data.name}
-                            </a>
-                        </>
+                        <a href={`/monsters/${prev.id}`}>
+                            {"← " + prev.data.name}
+                        </a>
                     )
                 }
             </span>
             <span>
                 {
                     next && (
-                        <>
-                            <b>Next: </b>
-                            <a
-                                href={`/monsters/${next.id}`}
-                                class="btn btn--primary"
-                            >
-                                {next.data.name}
-                            </a>
-                        </>
+                        <a href={`/monsters/${next.id}`}>
+                            {next.data.name + " →"}
+                        </a>
                     )
                 }
             </span>
