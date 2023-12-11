@@ -188,6 +188,11 @@ const SEO = `The ${name} is a CR ${challenge_rating} ${monster.size} ${monster.t
             >{monster.document__title}</a
         >{monster.page_no && <span>, page no. {monster.page_no}</span>}
         <hr />
+        <div>
+            <b>Other formats:</b>
+        <a href={`/api/monsters/${slug}.json`}>JSON</a>
+            </div>
+        <hr />
         <div
             style="display: flex; justify-content: space-between; font-size: 1.4rem;"
         >
