@@ -1,4 +1,5 @@
 ---
+import { marked } from "marked"
 import { getCollection } from "astro:content"
 import Stats from "../../components/Stats.astro"
 import Layout from "../../layouts/Layout.astro"
@@ -24,7 +25,15 @@ const data: Record<string, any> = other
         <h1>
             {name}
         </h1>
-        <p>{desc}</p>
+        <span
+            set:html={marked.parse(
+                desc.replaceAll("\n", "\n\n"), // markdown require two newlines to split blocks.
+                {
+                    headerIds: false,
+                    mangle: false,
+                },
+            )}
+        />
 
         <h2>Classes</h2>
         <ul>
