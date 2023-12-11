@@ -37,7 +37,7 @@ const data: Record<string, any> = other
 
         <h2>Classes</h2>
         <ul>
-            {classes.map((cls: string) => <li>{cls}</li>)}
+            {classes.map((cls: string) => <li><a href={cls}>{cls}</a></li>)}
         </ul>
         <hr />
         <Stats data={data} />
