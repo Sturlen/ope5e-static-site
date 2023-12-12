@@ -11,7 +11,7 @@ export default defineConfig({
         analytics: true,
     }),
     experimental: {
-        contentCollectionCache: true,
+        contentCollectionCache: false,
     },
     site: "https://5e.spetland.no",
     integrations: [react(), sitemap()],
