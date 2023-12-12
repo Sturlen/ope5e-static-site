@@ -2,4 +2,4 @@
 title: Fire
 ---
 
-It burns!
+It burns! It **really** burns!

@@ -16,12 +16,14 @@ function groupBy<T>(arr: T[], fn: (item: T) => any) {
 const grouped = groupBy(blogEntries, (entry) => entry.slug.split("/")[0])
 
 const name = "Pages"
-const desc = "Descriptions and definitons"
+const desc =
+    "A directory of free standing pages that do not fit into an existing category and can be referenced by other pages."
 ---
 
 <Layout title={name} description={desc}>
     <main>
         <h1>{name}</h1>
+        <p>{desc}</p>
         <p>
             {
                 Object.entries(grouped).map((group) => (
