@@ -1,0 +1,5 @@
+---
+title: Fire
+---
+
+It burns!

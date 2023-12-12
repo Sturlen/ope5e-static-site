@@ -1,0 +1,46 @@
+---
+import { getCollection } from "astro:content"
+import Layout from "../layouts/Layout.astro"
+
+const blogEntries = await getCollection("pages")
+
+function groupBy<T>(arr: T[], fn: (item: T) => any) {
+    return arr.reduce<Record<string, T[]>>((prev, curr) => {
+        const groupKey = fn(curr)
+        const group = prev[groupKey] || []
+        group.push(curr)
+        return { ...prev, [groupKey]: group }
+    }, {})
+}
+
+const grouped = groupBy(blogEntries, (entry) => entry.slug.split("/")[0])
+
+const name = "Pages"
+const desc = "Descriptions and definitons"
+---
+
+<Layout title={name} description={desc}>
+    <main>
+        <h1>{name}</h1>
+        <p>
+            {
+                Object.entries(grouped).map((group) => (
+                    <>
+                        <a href={`/pages/${group[0]}`}>
+                            <h2>{group[0]}</h2>
+                        </a>
+                        <ol>
+                            {group[1].map((p) => (
+                                <li>
+                                    <a href={`/${p.collection}/${p.slug}`}>
+                                        {p.data.title}
+                                    </a>
+                                </li>
+                            ))}
+                        </ol>
+                    </>
+                ))
+            }
+        </p>
+    </main>
+</Layout>
