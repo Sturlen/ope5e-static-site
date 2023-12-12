@@ -8,9 +8,9 @@ import sitemap from "@astrojs/sitemap"
 export default defineConfig({
     output: "static",
     adapter: vercel({
-        analytics: true,
-        webAnalytics: true,
-        speedInsights: true,
+        analytics: { enabled: true },
+        webAnalytics: { enabled: true },
+        speedInsights: { enabled: true },
     }),
     experimental: {
         contentCollectionCache: false,
