@@ -1,12 +1,12 @@
 import { z } from "zod"
 
 const SpeedSchema = z.object({
-    walk: z.number().default(0),
-    swim: z.number().default(0),
-    fly: z.number().default(0),
-    burrow: z.number().default(0),
-    climb: z.number().default(0),
-    hover: z.boolean().default(false),
+    walk: z.number().nullish(),
+    swim: z.number().nullish(),
+    fly: z.number().nullish(),
+    burrow: z.number().nullish(),
+    climb: z.number().nullish(),
+    hover: z.boolean().nullish(),
 })
 
 export const MonsterSchema = z
