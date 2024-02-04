@@ -1,6 +1,13 @@
 import { z } from "zod"
 
-const SpeedSchema = z.record(z.union([z.number(), z.boolean(), z.string()]))
+const SpeedSchema = z.object({
+    walk: z.number().default(0),
+    swim: z.number().default(0),
+    fly: z.number().default(0),
+    burrow: z.number().default(0),
+    climb: z.number().default(0),
+    hover: z.boolean().default(false),
+})
 
 export const MonsterSchema = z
     .object({
