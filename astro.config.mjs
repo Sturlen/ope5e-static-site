@@ -6,7 +6,7 @@ import sitemap from "@astrojs/sitemap"
 
 // https://astro.build/config
 export default defineConfig({
-    output: "hybrid",
+    output: "server",
     adapter: vercel({
         analytics: { enabled: true },
         webAnalytics: { enabled: true },
