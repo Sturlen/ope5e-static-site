@@ -1,6 +1,3 @@
-import Monsters from "../cache/monsters.json"
-
-const monsters = Monsters as Array<Record<string, any>>
 export const prerender = false
 
 export const config = {
@@ -13,7 +10,7 @@ export default async (request: Request) => {
 
     if (!name) return new Response("Query must not be empty", { status: 400 })
 
-    const entries = monsters
+    const entries: Promise<any[]> = (await fetch("/monsters.json")).json()
 
     return new Response(JSON.stringify(entries, null, 4))
 }
