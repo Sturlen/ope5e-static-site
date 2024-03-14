@@ -1,5 +1,9 @@
 export const prerender = false
 
+export const config = {
+    runtime: "edge",
+}
+
 export default async (request: Request) => {
     const url = new URL(request.url)
     const name = url.searchParams.get("name") ?? "Creature"
