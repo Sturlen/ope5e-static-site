@@ -24,6 +24,7 @@
         "algoliasearch": "^4.17.0",
         "astro": "4.0.3",
         "dotenv": "^16.0.3",
+        "fuse.js": "^7.0.0",
         "marked": "^5.0.2",
         "react": "^18.0.0",
         "react-dom": "^18.0.0",
