@@ -1,3 +1,6 @@
+import Monsters from "../cache/monsters.json"
+
+const monsters = Monsters as Array<Record<string, any>>
 export const prerender = false
 
 export const config = {
@@ -9,7 +12,6 @@ export default async (request: Request) => {
     const name = url.searchParams.get("name") ?? "Creature"
 
     if (!name) return new Response("Query must not be empty", { status: 400 })
-    const monsters = []
 
     const entries = monsters
 
