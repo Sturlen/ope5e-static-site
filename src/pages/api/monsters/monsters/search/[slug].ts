@@ -2,6 +2,8 @@ import type { APIRoute } from "astro"
 import { getCollection, getEntry } from "astro:content"
 import Fuse from "fuse.js"
 
+export const prerender = false
+
 const monsters = await getCollection("monsters")
 const fuse = new Fuse(monsters)
 
