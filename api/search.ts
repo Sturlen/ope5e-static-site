@@ -7,7 +7,7 @@ export const prerender = false
 const monsters = await getCollection("monsters")
 const fuse = new Fuse(monsters)
 
-export const GET: APIRoute = async ({ params, request }) => {
+export default (request: Request) => {
     const url = new URL(request.url)
     const name = url.searchParams.get("name") ?? "Creature"
 
