@@ -11,7 +11,7 @@ export default async (request: Request) => {
     if (!name) return new Response("Query must not be empty", { status: 400 })
 
     const entries: Promise<any[]> = (
-        await fetch(url.host + "/monsters.json")
+        await fetch("https://" + url.host + "/monsters.json")
     ).json()
 
     return new Response(JSON.stringify(entries, null, 4))
