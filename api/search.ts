@@ -1,3 +1,5 @@
+import Fuse from "fuse.js"
+
 export const prerender = false
 
 export const config = {
@@ -11,9 +13,11 @@ export default async (request: Request) => {
     if (!name) return new Response("Query must not be empty", { status: 400 })
     const monster_url = "https://" + url.host + "/monsters.json"
     console.log("monster_url", monster_url)
-    const entries: Promise<any[]> = await (await fetch(monster_url)).json()
+    const entries: any[] = await (await fetch(monster_url)).json()
 
     console.log("ent", entries)
 
-    return new Response(JSON.stringify(entries, null, 4))
+    const fuse = new Fuse(entries)
+
+    return new Response(JSON.stringify(fuse.search(name), null, 4))
 }
