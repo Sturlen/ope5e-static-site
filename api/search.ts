@@ -3,7 +3,7 @@ import Fuse from "fuse.js"
 export const prerender = false
 
 export const config = {
-    runtime: "edge",
+    runtime: "serverless",
 }
 
 export default async (request: Request) => {
