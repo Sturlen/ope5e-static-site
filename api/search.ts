@@ -17,7 +17,7 @@ export default async (request: Request) => {
 
     console.log("ent", entries)
 
-    const fuse = new Fuse(entries)
+    const fuse = new Fuse(entries, { keys: ["name"] })
 
     return new Response(JSON.stringify(fuse.search(name), null, 4))
 }
