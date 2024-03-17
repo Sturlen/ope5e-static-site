@@ -3,7 +3,7 @@ import Fuse from "fuse.js"
 export const prerender = false
 
 export const config = {
-    runtime: "serverless",
+    runtime: "edge",
 }
 
 export default async (request: Request) => {
@@ -11,7 +11,7 @@ export default async (request: Request) => {
     const name = url.searchParams.get("name") ?? "Creature"
 
     if (!name) return new Response("Query must not be empty", { status: 400 })
-    const monster_url = "https://" + url.host + "/monsters.json"
+    const monster_url = "https://" + process.env.VERCEL_URL + "/monsters.json"
     console.log("monster_url", monster_url)
     const entries: any[] = await (await fetch(monster_url)).json()
 
